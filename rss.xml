@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>小蜗牛的大梦想</title>
+    <link>http://han1475.github.io/</link>
+    <description>static site generator</description>
+    <pubDate>四, 13 6月 2019 10:41:10 CST</pubDate>
+    <lastBuildDate>四, 13 6月 2019 10:41:10 CST</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>测试使用org-page写博客</title>
+      <link>http://han1475.github.io/blog/2019/06/13/test-org-page</link>
+      <description><![CDATA[test org page]]></description>
+      <pubDate>2019-06-13</pubDate>
+      <guid>http://han1475.github.io/blog/2019/06/13/test-org-page</guid>
+    </item>
+  </channel>
+</rss>
