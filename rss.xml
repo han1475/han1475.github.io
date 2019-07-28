@@ -2,18 +2,25 @@
 <rss version="2.0">
   <channel>
     <title>小蜗牛的大梦想</title>
-    <link>http://han1475.github.io/</link>
+    <link>http://han1475.com/</link>
     <description>static site generator</description>
-    <pubDate>Thu, 25 Jul 2019 13:44:54 CST</pubDate>
-    <lastBuildDate>Thu, 25 Jul 2019 13:44:54 CST</lastBuildDate>
+    <pubDate>Mon, 29 Jul 2019 00:33:41 CST</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 00:33:41 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>合并两个git仓库，保留两个仓库的commit记录</title>
+      <link>http://han1475.com/blog/2019/07/28/merge-two-git-repo</link>
+      <description><![CDATA[合并两个git仓库，保留两个仓库的commit记录]]></description>
+      <pubDate>2019-07-29</pubDate>
+      <guid>http://han1475.com/blog/2019/07/28/merge-two-git-repo</guid>
+    </item>
+    <item>
       <title>测试使用org-page写博客</title>
-      <link>http://han1475.github.io/blog/2019/06/13/test-org-page</link>
+      <link>http://han1475.com/blog/2019/06/13/test-org-page</link>
       <description><![CDATA[test org page]]></description>
       <pubDate>2019-06-13</pubDate>
-      <guid>http://han1475.github.io/blog/2019/06/13/test-org-page</guid>
+      <guid>http://han1475.com/blog/2019/06/13/test-org-page</guid>
     </item>
   </channel>
 </rss>
