@@ -62,12 +62,17 @@
 			<h1>合并两个git仓库，并保留两个仓库的commit记录</h1>
 		
 		
-<div id="outline-container-org93f549a" class="outline-2">
-<h2 id="org93f549a">将repo1合并到repo2中，并保留repo1的commit记录.</h2>
+<div id="outline-container-org816e5c1" class="outline-2">
+<h2 id="org816e5c1">说明</h2>
+<div class="outline-text-2" id="text-org816e5c1">
+<p>
+将repo1合并到repo2中，并保留repo1的commit记录.
+</p>
 </div>
-<div id="outline-container-orgf39e893" class="outline-2">
-<h2 id="orgf39e893">在repo2中依次运行下列命令</h2>
-<div class="outline-text-2" id="text-orgf39e893">
+</div>
+<div id="outline-container-org2919ec7" class="outline-2">
+<h2 id="org2919ec7">在repo2中依次运行下列命令</h2>
+<div class="outline-text-2" id="text-org2919ec7">
 <pre class="example">
 git remote add other /your/path/to/repo1
 git fetch other
@@ -76,12 +81,12 @@ git checkout master
 git merge repo1 --allow-unrelated-histories
 </pre>
 </div>
+<div id="outline-container-org983de84" class="outline-3">
+<h3 id="org983de84">为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。</h3>
 </div>
-<div id="outline-container-org61506c7" class="outline-2">
-<h2 id="org61506c7">为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。</h2>
+<div id="outline-container-org8d9f97c" class="outline-3">
+<h3 id="org8d9f97c">合并仓库时和常规merge一致需处理合并冲突。</h3>
 </div>
-<div id="outline-container-org4a35d90" class="outline-2">
-<h2 id="org4a35d90">合并仓库时和常规merge一致需处理合并冲突。</h2>
 </div>
 
 	</div>
