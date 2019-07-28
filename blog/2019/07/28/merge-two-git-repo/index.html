@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>合并两个git仓库，保留两个仓库的commit记录 - 小蜗牛的大梦想</title>
+    <title>合并两个git仓库，并保留两个仓库的commit记录 - 小蜗牛的大梦想</title>
     <meta charset="utf-8" />
     <meta name="author" content="han1475" />
-    <meta name="description" content="合并两个git仓库，保留两个仓库的commit记录" />
+    <meta name="description" content="合并两个git仓库，并保留两个仓库的commit记录" />
     <meta name="keywords" content="git,merge,repo" />
     <link rel="icon" href="/assets/everding.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/assets/everding.ico" type="image/x-icon" />
@@ -59,16 +59,15 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-10 col-sm-12">
 		
-			<h1>合并两个git仓库，保留两个仓库的commit记录</h1>
+			<h1>合并两个git仓库，并保留两个仓库的commit记录</h1>
 		
 		
-<div id="outline-container-org0af2cbf" class="outline-2">
-<h2 id="org0af2cbf">本文示例：将repo1合并到repo2中，并保留repo1的commit记录.</h2>
-<div class="outline-text-2" id="text-org0af2cbf">
+<div id="outline-container-org93f549a" class="outline-2">
+<h2 id="org93f549a">将repo1合并到repo2中，并保留repo1的commit记录.</h2>
 </div>
-<div id="outline-container-org06d9bdf" class="outline-3">
-<h3 id="org06d9bdf">在repo2中依次运行下列命令</h3>
-<div class="outline-text-3" id="text-org06d9bdf">
+<div id="outline-container-orgf39e893" class="outline-2">
+<h2 id="orgf39e893">在repo2中依次运行下列命令</h2>
+<div class="outline-text-2" id="text-orgf39e893">
 <pre class="example">
 git remote add other /your/path/to/repo1
 git fetch other
@@ -78,12 +77,11 @@ git merge repo1 --allow-unrelated-histories
 </pre>
 </div>
 </div>
-<div id="outline-container-orga5dd308" class="outline-3">
-<h3 id="orga5dd308">为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。</h3>
+<div id="outline-container-org61506c7" class="outline-2">
+<h2 id="org61506c7">为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。</h2>
 </div>
-<div id="outline-container-org6b2f642" class="outline-3">
-<h3 id="org6b2f642">合并仓库时和常规merge一致需处理合并冲突。</h3>
-</div>
+<div id="outline-container-org4a35d90" class="outline-2">
+<h2 id="org4a35d90">合并仓库时和常规merge一致需处理合并冲突。</h2>
 </div>
 
 	</div>
