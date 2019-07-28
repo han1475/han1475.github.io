@@ -9,7 +9,8 @@
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: 合并两个git仓库，并保留两个仓库的commit记录
 
-* 将repo1合并到repo2中，并保留repo1的commit记录.
+* 说明 
+将repo1合并到repo2中，并保留repo1的commit记录.
 * 在repo2中依次运行下列命令
 #+BEGIN_SRC 
   git remote add other /your/path/to/repo1
@@ -18,5 +19,5 @@
   git checkout master
   git merge repo1 --allow-unrelated-histories
 #+END_SRC 
-* 为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
-* 合并仓库时和常规merge一致需处理合并冲突。
+** 为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
+** 合并仓库时和常规merge一致需处理合并冲突。
