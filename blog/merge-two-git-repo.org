@@ -17,7 +17,7 @@
   git checkout -b repo1 other/master
   git checkout master
   git merge repo1 --allow-unrelated-histories
-#+BND_SRC 
+#+END_SRC 
 
 为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
 
