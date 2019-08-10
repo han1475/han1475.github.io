@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>git · 小蜗牛的大梦想</title>
+  <title>merge-two-git-repo - 小蜗牛的大梦想</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="han1475" />
-  <meta name="description" content="小蜗牛的大梦想" />
+  <meta name="description" content="合并两个git仓库并保留commit记录 说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命" />
+
   <meta name="keywords" content="Hugo" />
 
 
@@ -34,8 +35,7 @@
 <meta name="generator" content="Hugo 0.57.2" />
 
 
-<link rel="canonical" href="http://192.168.1.15/tags/git/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/tags/git/index.xml%20http://192.168.1.15/tags/git/index.xml%7d" rel="alternate" type="application/rss+xml" title="小蜗牛的大梦想" />
+<link rel="canonical" href="http://192.168.1.15/post/merge-two-git-repo/" />
 
 
 
@@ -57,18 +57,26 @@
 
 
 
-<meta property="og:title" content="git" />
-<meta property="og:description" content="小蜗牛的大梦想" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://192.168.1.15/tags/git/" />
+<meta property="og:title" content="merge-two-git-repo" />
+<meta property="og:description" content="合并两个git仓库并保留commit记录 说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://192.168.1.15/post/merge-two-git-repo/" />
+<meta property="article:published_time" content="2019-08-06T09:17:00+08:00" />
+<meta property="article:modified_time" content="2019-08-06T09:50:35+08:00" />
+<meta itemprop="name" content="merge-two-git-repo">
+<meta itemprop="description" content="合并两个git仓库并保留commit记录 说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命">
 
-<meta property="og:updated_time" content="2019-08-06T09:17:00+08:00" />
-<meta itemprop="name" content="git">
-<meta itemprop="description" content="小蜗牛的大梦想">
 
+<meta itemprop="datePublished" content="2019-08-06T09:17:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-08-06T09:50:35&#43;08:00" />
+<meta itemprop="wordCount" content="189">
+
+
+
+<meta itemprop="keywords" content="git," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="git"/>
-<meta name="twitter:description" content="小蜗牛的大梦想"/>
+<meta name="twitter:title" content="merge-two-git-repo"/>
+<meta name="twitter:description" content="合并两个git仓库并保留commit记录 说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -285,55 +293,119 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-
-<section id="archive" class="archive">
-  
+          <article class="post bg-white">
     
-      <div class="archive-title tag">
-        <h2 class="archive-name">标签： git</h2>
+    <header class="post-header">
+      <h1 class="post-title">merge-two-git-repo</h1>
+      
+      <div class="post-meta">
+        <time datetime="2019-08-06" class="post-time">
+          2019-08-06
+        </time>
+        <div class="post-category">
+            <a href="http://192.168.1.15/categories/git/"> git </a>
+            
+          </div>
+        
+
+        
+        
+
+        
+        
       </div>
+    </header>
+
     
-  
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
 
-  
-    <div class="archive-post">
-      <time datetime="2019-08-06" class="archive-post-time">
-        2019-08-06
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/merge-two-git-repo/" class="archive-post-link">
-          merge-two-git-repo
-        </a>
-      </span>
+    
+    <div class="post-content">
+      <ul>
+<li>合并两个git仓库并保留commit记录</li>
+<li>说明将repo1合并到repo2中，并保留repo1的commit记录.</li>
+<li>在repo2中依次运行下列命令</li>
+</ul>
+
+<!--listend-->
+
+<pre><code class="language-nil">git remote add other /your/path/to/repo1
+git fetch other
+git checkout -b repo1 other/master
+git checkout master
+git merge repo1 --allow-unrelated-histories
+</code></pre>
+
+<ul>
+<li>为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&ndash;allow-unrelated-histories选项。</li>
+<li>合并仓库时和常规merge一致需处理合并冲突。</li>
+</ul>
+
     </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">han1475</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-08-06
+      
+    </span>
+  </p>
   
-</section>
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
 
 
+    
+    
 
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="http://192.168.1.15/tags/git/">git</a>
+          
+        </div>
 
-
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
 
   
   
+
+  
+  
+
   
 
   
   
 
   
-  
 
   
-  
 
   
-  
 
-
-
-
+    
 
         </div>
       </div>

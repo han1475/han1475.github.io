@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小蜗牛的大梦想</title>
+    <link>http://192.168.1.15/</link>
+    <description>Recent content on 小蜗牛的大梦想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Aug 2019 09:17:00 +0800</lastBuildDate>
+    
+        <atom:link href="http://192.168.1.15/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于</title>
+      <link>http://192.168.1.15/about/</link>
+      <pubDate>Tue, 06 Aug 2019 03:06:03 +0800</pubDate>
+      
+      <guid>http://192.168.1.15/about/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;程序员-技术宅-单身狗&#34;&gt;程序员、技术宅、单身狗&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;emacs新手党&lt;/li&gt;
+&lt;li&gt;大前端爱好者&lt;/li&gt;
+&lt;li&gt;图吧垃圾佬&lt;/li&gt;
+&lt;li&gt;现在惯用Arch Linux&lt;/li&gt;
+&lt;li&gt;Java开发迷路ing&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>merge-two-git-repo</title>
+      <link>http://192.168.1.15/post/merge-two-git-repo/</link>
+      <pubDate>Tue, 06 Aug 2019 09:17:00 +0800</pubDate>
+      
+      <guid>http://192.168.1.15/post/merge-two-git-repo/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;合并两个git仓库并保留commit记录&lt;/li&gt;
+&lt;li&gt;说明将repo1合并到repo2中，并保留repo1的commit记录.&lt;/li&gt;
+&lt;li&gt;在repo2中依次运行下列命令&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--listend--&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;git remote add other /your/path/to/repo1
+git fetch other
+git checkout -b repo1 other/master
+git checkout master
+git merge repo1 --allow-unrelated-histories
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/li&gt;
+&lt;li&gt;合并仓库时和常规merge一致需处理合并冲突。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml-stylesheet type="text/xsl" href="http://192.168.1.15/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://192.168.1.15/about/</loc>
+    <lastmod>2019-08-06T03:06:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/categories/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/tags/git/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/categories/git/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/post/merge-two-git-repo/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/post/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/tags/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://192.168.1.15/</loc>
+    <lastmod>2019-08-06T09:50:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
