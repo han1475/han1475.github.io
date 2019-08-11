@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:han1475/han1475.github.io.git
 	branch = master
+[submodule "themes/jane"]
+	path = themes/jane
+	url = https://github.com/han1475/hugo-theme-jane.git
