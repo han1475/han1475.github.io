@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://192.168.1.15/sitemap.xml
+Sitemap: https://han1475.com/sitemap.xml

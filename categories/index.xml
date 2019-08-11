@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 小蜗牛的大梦想</title>
-    <link>http://192.168.1.15/categories/</link>
+    <link>https://han1475.com/categories/</link>
     <description>Recent content in Categories on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Aug 2019 09:17:00 +0800</lastBuildDate>
     
-	<atom:link href="http://192.168.1.15/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://han1475.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>git</title>
-      <link>http://192.168.1.15/categories/git/</link>
+      <link>https://han1475.com/categories/git/</link>
       <pubDate>Tue, 06 Aug 2019 09:17:00 +0800</pubDate>
       
-      <guid>http://192.168.1.15/categories/git/</guid>
+      <guid>https://han1475.com/categories/git/</guid>
       <description></description>
     </item>
     
