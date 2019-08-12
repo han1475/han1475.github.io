@@ -13,7 +13,9 @@ mathjax: false
 # 程序员、技术宅、单身狗
 
 - emacs新手党
+- 一切软件皆为vim键位
 - 大前端爱好者
 - 图吧垃圾佬
 - 现在惯用Arch Linux
+- B站活跃分子
 - Java开发迷路ing...
