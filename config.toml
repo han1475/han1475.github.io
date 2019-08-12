@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://192.168.1.15/"
+baseURL = "https://han1475.com/"
 title = "小蜗牛的大梦想"
 enableRobotsTXT = true
 enableEmoji = true
