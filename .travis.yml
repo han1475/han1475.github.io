@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+- node
+sudo: required
+dist: trusty
+
+branches:
+  only:
+  - source
+before_install: 
+# for html-minifier
+- sudo pip install Pygments
+install:
+- mkdir work
+- wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+  -O $PWD/work/hugo.deb
+- sudo dpkg -i $PWD/work/hugo.deb
+- npm install
+script:
+- grunt deploy
+
+env:
+  global:
+  - REPO="github.com/han1475/han1475.github.io.git"
+  - USER="han1475"
+  - EMAIL="me@han1475.com"
+  - SOURCE_DIR="public"
+  - DEPLOY_BRANCH="master"
