@@ -26,6 +26,7 @@ after_script:
   - cp -r public/* container 
   - cd container
   - echo "han1475.com" >> CNAME
+  - echo "Personal site of han1475, managed by emacs, org mode, git, ox-hugo, and travis." >> README.md
   - git add .
   - git commit -m 'Travis upate blog'
   - git push -u origin master -f
