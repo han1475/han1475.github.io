@@ -1,28 +1,40 @@
 language: node_js
-node_js:
-- node
+node_js: stable
 sudo: required
-dist: trusty
+dist: xenial
 
 branches:
   only:
-  - source
-before_install: 
-# for html-minifier
-- sudo pip install Pygments
+    - source  
+
 install:
-- mkdir work
-- wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+  - mkdir work
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
   -O $PWD/work/hugo.deb
-- sudo dpkg -i $PWD/work/hugo.deb
-- npm install
+  - sudo dpkg -i $PWD/work/hugo.deb
+  - npm install  
+
 script:
-- grunt deploy
+  - hugo -v
+  - gulp 
+
+after_script:
+  - git config --global user.name "han1475"
+  - git config --global user.email "me@han1475.com""
+  - git clone https://${GH_TOKEN}@${REPO} container
+  - rm -rf container/*
+  - cp -r public/* container 
+  - cd container
+  - echo "han1475.com" >> CNAME
+  - git add .
+  - git commit -m 'Travis upate blog'
+  - git push -u origin master -f
 
 env:
   global:
-  - REPO="github.com/han1475/han1475.github.io.git"
-  - USER="han1475"
-  - EMAIL="me@han1475.com"
-  - SOURCE_DIR="public"
-  - DEPLOY_BRANCH="master"
+    - REPO="github.com/han1475/han1475.github.io.git"
+    - USER="han1475"
+    - EMAIL="me@han1475.com"
+    - SOURCE_DIR="public"
+    - DEPLOY_BRANCH="master"
+

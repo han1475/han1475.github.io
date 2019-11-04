@@ -2,33 +2,12 @@
   "name": "han1475.github.io",
   "version": "1.0.0",
   "description": "Personal site of han1475, managed by emacs, org mode, git, ox-hugo, and travis.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/han1475/han1475.github.io.git"
-  },
-  "keywords": [
-    "demo"
-  ],
-  "author": "han1475",
-  "bugs": {
-    "url": "https://github.com/han1475/han1475.github.io/issues"
-  },
-  "homepage": "https://github.com/han1475/han1475.github.io#readme",
-  "scripts": {
-    "test": "grunt test"
-  },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-htmlmin": "^2.0.0",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-exec": "^1.0.1",
-    "grunt-gh-pages": "0.9.1"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-htmlclean": "^2.7.16",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
