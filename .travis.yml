@@ -16,11 +16,10 @@ install:
 
 script:
   - hugo -v
-  - gulp 
 
 after_script:
-  - git config --global user.name "han1475"
-  - git config --global user.email "me@han1475.com""
+  - git config --global user.name ${GIT_USER}
+  - git config --global user.email ${GIT_EMAIL}
   - git clone https://${GH_TOKEN}@${REPO} container
   - rm -rf container/*
   - cp -r public/* container 
@@ -34,8 +33,8 @@ after_script:
 env:
   global:
     - REPO="github.com/han1475/han1475.github.io.git"
-    - USER="han1475"
-    - EMAIL="me@han1475.com"
+    - GIT_USER="han1475"
+    - GIT_EMAIL="me@han1475.com"
     - SOURCE_DIR="public"
     - DEPLOY_BRANCH="master"
 
