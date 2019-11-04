@@ -29,7 +29,7 @@ gulp.task('minify-css', function() {
 gulp.task('minify-js', function() {
     return gulp.src('./public/js/**/*.js')
         .pipe(terser())
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest('./public/js/'));
 });
 
 gulp.task('minify-images', function() {
