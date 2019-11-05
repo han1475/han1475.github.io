@@ -45,21 +45,19 @@
         <description>&lt;ul&gt;
 &lt;li&gt;合并两个git仓库并保留commit记录&lt;/li&gt;
 &lt;li&gt;说明将repo1合并到repo2中，并保留repo1的commit记录.&lt;/li&gt;
-&lt;li&gt;在repo2中依次运行下列命令&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;!--listend--&gt;
+&lt;li&gt;&lt;p&gt;在repo2中依次运行下列命令&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;git remote add other /your/path/to/repo1
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git remote add other /your/path/to/repo1
 git fetch other
 git checkout -b repo1 other/master
 git checkout master
 git merge repo1 --allow-unrelated-histories
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;ul&gt;
-&lt;li&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/li&gt;
-&lt;li&gt;合并仓库时和常规merge一致需处理合并冲突。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;合并仓库时和常规merge一致需处理合并冲突。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
