@@ -6,18 +6,27 @@
     <description>Recent content in git on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 Aug 2019 09:17:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 14:56:00 +0800</lastBuildDate>
     
 	<atom:link href="https://han1475.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>merge-two-git-repo</title>
+      <title>git submodule常用命令</title>
+      <link>https://han1475.com/post/git-submodule/</link>
+      <pubDate>Tue, 05 Nov 2019 14:56:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/git-submodule/</guid>
+      <description>Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立</description>
+    </item>
+    
+    <item>
+      <title>合并两个git仓库，保留提交记录</title>
       <link>https://han1475.com/post/merge-two-git-repo/</link>
       <pubDate>Tue, 06 Aug 2019 09:17:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/merge-two-git-repo/</guid>
-      <description>合并两个git仓库并保留commit记录 说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命</description>
+      <description>说明将repo1合并到repo2中，并保留repo1的commit记录. 在repo2中依次运行下列命令 git remote add other /your/path/to/repo1 git fetch other git checkout -b repo1 other/master git checkout master git merge repo1</description>
     </item>
     
   </channel>

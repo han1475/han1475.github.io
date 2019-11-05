@@ -6,7 +6,7 @@
     <description>Recent content on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 Aug 2019 09:17:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 14:56:00 +0800</lastBuildDate>
     
         <atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,14 +36,74 @@
     </item>
     
     <item>
-      <title>merge-two-git-repo</title>
+      <title>git submodule常用命令</title>
+      <link>https://han1475.com/post/git-submodule/</link>
+      <pubDate>Tue, 05 Nov 2019 14:56:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/git-submodule/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;添加子模块&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;git submodule add MOD_REPO YOUR_PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用包含子模块的项目,可以采取下列两种方式。&lt;/p&gt;
+
+&lt;p&gt;1.&lt;/p&gt;
+
+&lt;!--listend--&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO
+git submodule init
+git submodule update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;1.&lt;/p&gt;
+
+&lt;!--listend--&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;删除子模块&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git submodule deinit {MOD_NAME}
+git rm --cached {MOD_NAME}
+git commit -am &amp;quot;Remove a submodule.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修改某个模块的URL属性&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;修改.gitmodule文件中对应模块的url属性&lt;/li&gt;
+&lt;li&gt;运行git submodule sync 命令，将新的url更新到文件.git/config
+3.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--listend--&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git commit -am &amp;quot;Update submodule url.&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>合并两个git仓库，保留提交记录</title>
       <link>https://han1475.com/post/merge-two-git-repo/</link>
       <pubDate>Tue, 06 Aug 2019 09:17:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/merge-two-git-repo/</guid>
       
         <description>&lt;ul&gt;
-&lt;li&gt;合并两个git仓库并保留commit记录&lt;/li&gt;
 &lt;li&gt;说明将repo1合并到repo2中，并保留repo1的commit记录.&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;在repo2中依次运行下列命令&lt;/p&gt;
