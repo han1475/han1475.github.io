@@ -1,7 +1,7 @@
 +++
 title = "git submodule常用命令"
 date = 2019-11-05T14:56:00+08:00
-lastmod = 2019-11-05T15:44:03+08:00
+lastmod = 2019-11-05T15:50:08+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
@@ -42,5 +42,5 @@ draft = false
     3.  提交修改
 
         ```shell
-        git commit -am "Update submodule url."}
+        git commit -am "Update submodule url."
         ```

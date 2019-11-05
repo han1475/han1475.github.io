@@ -59,7 +59,7 @@
    2. 运行git submodule sync 命令，将新的url更新到文件.git/config
    3. 提交修改 
      #+BEGIN_SRC shell
-       git commit -am "Update submodule url."}
+       git commit -am "Update submodule url."
      #+END_SRC
 * Footnotes
 * COMMENT Local Variables                :ARCHIVE:
