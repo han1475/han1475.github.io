@@ -62,14 +62,14 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://han1475.com/post/git-submodule/" />
 <meta property="article:published_time" content="2019-11-05T14:56:00+08:00" />
-<meta property="article:modified_time" content="2019-11-05T15:34:58+08:00" />
+<meta property="article:modified_time" content="2019-11-05T15:44:03+08:00" />
 <meta itemprop="name" content="git submodule常用命令">
 <meta itemprop="description" content="Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立">
 
 
 <meta itemprop="datePublished" content="2019-11-05T14:56:00&#43;08:00" />
-<meta itemprop="dateModified" content="2019-11-05T15:34:58&#43;08:00" />
-<meta itemprop="wordCount" content="250">
+<meta itemprop="dateModified" content="2019-11-05T15:44:03&#43;08:00" />
+<meta itemprop="wordCount" content="274">
 
 
 
@@ -341,21 +341,19 @@
 
 <li><p>使用包含子模块的项目,可以采取下列两种方式。</p>
 
-<p>1.</p>
-
-<!--listend-->
+<ol>
+<li><p>克隆后再初始化并更新子模块</p>
 
 <pre><code class="language-shell">git clone MAIN_REPO
 git submodule init
 git submodule update
-</code></pre>
+</code></pre></li>
 
-<p>1.</p>
-
-<!--listend-->
+<li><p>在克隆时增加额外参数</p>
 
 <pre><code class="language-shell">git clone MAIN_REPO --recursive
 </code></pre></li>
+</ol></li>
 
 <li><p>删除子模块</p>
 
@@ -368,14 +366,13 @@ git commit -am &quot;Remove a submodule.&quot;
 
 <ol>
 <li>修改.gitmodule文件中对应模块的url属性</li>
-<li>运行git submodule sync 命令，将新的url更新到文件.git/config
-3.</li>
-</ol>
+<li>运行git submodule sync 命令，将新的url更新到文件.git/config</li>
 
-<!--listend-->
+<li><p>提交修改</p>
 
 <pre><code class="language-shell">git commit -am &quot;Update submodule url.&quot;}
 </code></pre></li>
+</ol></li>
 </ul>
 
     </div>

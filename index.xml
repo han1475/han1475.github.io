@@ -56,21 +56,19 @@
 
 &lt;li&gt;&lt;p&gt;使用包含子模块的项目,可以采取下列两种方式。&lt;/p&gt;
 
-&lt;p&gt;1.&lt;/p&gt;
-
-&lt;!--listend--&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;克隆后再初始化并更新子模块&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO
 git submodule init
 git submodule update
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
-&lt;p&gt;1.&lt;/p&gt;
-
-&lt;!--listend--&gt;
+&lt;li&gt;&lt;p&gt;在克隆时增加额外参数&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO --recursive
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;删除子模块&lt;/p&gt;
 
@@ -83,14 +81,13 @@ git commit -am &amp;quot;Remove a submodule.&amp;quot;
 
 &lt;ol&gt;
 &lt;li&gt;修改.gitmodule文件中对应模块的url属性&lt;/li&gt;
-&lt;li&gt;运行git submodule sync 命令，将新的url更新到文件.git/config
-3.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;运行git submodule sync 命令，将新的url更新到文件.git/config&lt;/li&gt;
 
-&lt;!--listend--&gt;
+&lt;li&gt;&lt;p&gt;提交修改&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git commit -am &amp;quot;Update submodule url.&amp;quot;}
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
