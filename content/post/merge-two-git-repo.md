@@ -1,13 +1,12 @@
 +++
-title = "merge-two-git-repo"
+title = "合并两个git仓库，保留提交记录"
 date = 2019-08-06T09:17:00+08:00
-lastmod = 2019-11-05T14:32:07+08:00
+lastmod = 2019-11-05T14:53:53+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
 +++
 
--   合并两个git仓库并保留commit记录
 -   说明将repo1合并到repo2中，并保留repo1的commit记录.
 -   在repo2中依次运行下列命令
 

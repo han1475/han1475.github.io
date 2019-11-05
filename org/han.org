@@ -4,12 +4,11 @@
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_DRAFT: false
 * blog 
-** DONE merge-two-git-repo                                         :git:@git:
+** DONE 合并两个git仓库，保留提交记录                              :git:@git:
    :PROPERTIES:
    :EXPORT_FILE_NAME: merge-two-git-repo
    :EXPORT_DATE: <2019-08-06 Tue 09:17>
    :END:
- * 合并两个git仓库并保留commit记录
  * 说明 
   将repo1合并到repo2中，并保留repo1的commit记录.
  * 在repo2中依次运行下列命令
@@ -22,3 +21,48 @@
    #+END_SRC 
  * 为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
  * 合并仓库时和常规merge一致需处理合并冲突。
+** DONE git submodule常用命令                                      :git:@git:
+:PROPERTIES:
+:EXPORT_FILE_NAME: git-submodule
+:EXPORT_DATE: <2019-11-05 Tue 14:56>
+:END:
+
+#+BEGIN_QUOTE
+  Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。 
+  它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。
+#+END_QUOTE
+
+ * 添加子模块 
+   #+BEGIN_SRC
+     git submodule add MOD_REPO YOUR_PATH
+   #+END_SRC
+   上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
+ * 使用包含子模块的项目,可以采取下列两种方式。
+   1.
+   #+BEGIN_SRC shell 
+     git clone MAIN_REPO
+     git submodule init
+     git submodule update
+   #+END_SRC
+   2.
+   #+BEGIN_SRC shell
+     git clone MAIN_REPO --recursive
+   #+END_SRC
+ * 删除子模块
+   #+BEGIN_SRC shell
+     git submodule deinit {MOD_NAME} 
+     git rm --cached {MOD_NAME} 
+     git commit -am "Remove a submodule." 
+   #+END_SRC
+ * 修改某个模块的URL属性
+   1. 修改.gitmodule文件中对应模块的url属性
+   2. 运行git submodule sync 命令，将新的url更新到文件.git/config
+   3. 
+   #+BEGIN_SRC shell
+     git commit -am "Update submodule url."}
+   #+END_SRC
+* Footnotes
+* COMMENT Local Variables                :ARCHIVE:
+ # Local Variables:
+ # eval: (org-hugo-auto-export-mode)
+ # End:
