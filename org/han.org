@@ -38,29 +38,29 @@
    #+END_SRC
    上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
  * 使用包含子模块的项目,可以采取下列两种方式。
-   1.
-   #+BEGIN_SRC shell 
-     git clone MAIN_REPO
-     git submodule init
-     git submodule update
-   #+END_SRC
-   2.
-   #+BEGIN_SRC shell
-     git clone MAIN_REPO --recursive
-   #+END_SRC
+   1. 克隆后再初始化并更新子模块
+     #+BEGIN_SRC shell 
+       git clone MAIN_REPO
+       git submodule init
+       git submodule update
+     #+END_SRC
+   2. 在克隆时增加额外参数
+     #+BEGIN_SRC shell
+       git clone MAIN_REPO --recursive
+     #+END_SRC
  * 删除子模块
-   #+BEGIN_SRC shell
-     git submodule deinit {MOD_NAME} 
-     git rm --cached {MOD_NAME} 
-     git commit -am "Remove a submodule." 
-   #+END_SRC
+     #+BEGIN_SRC shell
+       git submodule deinit {MOD_NAME} 
+       git rm --cached {MOD_NAME} 
+       git commit -am "Remove a submodule." 
+     #+END_SRC
  * 修改某个模块的URL属性
    1. 修改.gitmodule文件中对应模块的url属性
    2. 运行git submodule sync 命令，将新的url更新到文件.git/config
-   3. 
-   #+BEGIN_SRC shell
-     git commit -am "Update submodule url."}
-   #+END_SRC
+   3. 提交修改 
+     #+BEGIN_SRC shell
+       git commit -am "Update submodule url."}
+     #+END_SRC
 * Footnotes
 * COMMENT Local Variables                :ARCHIVE:
  # Local Variables:

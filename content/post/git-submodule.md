@@ -1,7 +1,7 @@
 +++
 title = "git submodule常用命令"
 date = 2019-11-05T14:56:00+08:00
-lastmod = 2019-11-05T15:34:58+08:00
+lastmod = 2019-11-05T15:44:03+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
@@ -17,24 +17,18 @@ draft = false
 
     上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
 -   使用包含子模块的项目,可以采取下列两种方式。
+    1.  克隆后再初始化并更新子模块
 
-    1.
+        ```shell
+        git clone MAIN_REPO
+        git submodule init
+        git submodule update
+        ```
+    2.  在克隆时增加额外参数
 
-    <!--listend-->
-
-    ```shell
-    git clone MAIN_REPO
-    git submodule init
-    git submodule update
-    ```
-
-    1.
-
-    <!--listend-->
-
-    ```shell
-    git clone MAIN_REPO --recursive
-    ```
+        ```shell
+        git clone MAIN_REPO --recursive
+        ```
 -   删除子模块
 
     ```shell
@@ -43,13 +37,10 @@ draft = false
     git commit -am "Remove a submodule."
     ```
 -   修改某个模块的URL属性
-
     1.  修改.gitmodule文件中对应模块的url属性
     2.  运行git submodule sync 命令，将新的url更新到文件.git/config
-    3.
+    3.  提交修改
 
-    <!--listend-->
-
-    ```shell
-    git commit -am "Update submodule url."}
-    ```
+        ```shell
+        git commit -am "Update submodule url."}
+        ```
