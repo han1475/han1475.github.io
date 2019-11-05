@@ -85,7 +85,7 @@ git commit -am &amp;quot;Remove a submodule.&amp;quot;
 
 &lt;li&gt;&lt;p&gt;提交修改&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git commit -am &amp;quot;Update submodule url.&amp;quot;}
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git commit -am &amp;quot;Update submodule url.&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
