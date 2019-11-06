@@ -1,7 +1,7 @@
 +++
 title = "git常用命令"
 date = 2019-11-06
-lastmod = 2019-11-07T00:04:49+08:00
+lastmod = 2019-11-07T00:20:50+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
@@ -85,4 +85,6 @@ git merge repo1 --allow-unrelated-histories
 ```
 
 
-### 为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。 {#为解决合并仓库时出现的fatal-refusing-to-merge-unrelated-histories错误-我们这里使用了-allow-unrelated-histories选项}
+### 常见错误： {#常见错误}
+
+为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
