@@ -114,7 +114,9 @@ git checkout master
 git merge repo1 --allow-unrelated-histories
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;为解决合并仓库时出现的fatal-refusing-to-merge-unrelated-histories错误-我们这里使用了-allow-unrelated-histories选项&#34;&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/h3&gt;</description>
+&lt;h3 id=&#34;常见错误&#34;&gt;常见错误：&lt;/h3&gt;
+
+&lt;p&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/p&gt;</description>
       
     </item>
     
