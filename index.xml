@@ -51,10 +51,14 @@
 &lt;/blockquote&gt;
 
 &lt;h3 id=&#34;添加子模块&#34;&gt;添加子模块&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;git submodule add MOD_REPO YOUR_PATH
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;git submodule add MOD_REPO YOUR_PATH&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。&lt;/p&gt;
 
 &lt;h3 id=&#34;使用包含子模块的项目-可以采取下列两种方式&#34;&gt;使用包含子模块的项目,可以采取下列两种方式。&lt;/h3&gt;
@@ -64,28 +68,44 @@
 &lt;/ol&gt;
 
 &lt;!--listend--&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone MAIN_REPO
 git submodule init
-git submodule update
-&lt;/code&gt;&lt;/pre&gt;
-
+git submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;在克隆时增加额外参数&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;!--listend--&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone MAIN_REPO --recursive
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone MAIN_REPO --recursive&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;删除子模块&#34;&gt;删除子模块&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git submodule deinit {MOD_NAME}
-git rm --cached {MOD_NAME}
-git commit -am &amp;quot;Remove a submodule.&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git submodule deinit &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+git rm --cached &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;修改某个模块的url属性&#34;&gt;修改某个模块的URL属性&lt;/h3&gt;
 
 &lt;ol&gt;
@@ -95,10 +115,14 @@ git commit -am &amp;quot;Remove a submodule.&amp;quot;
 &lt;/ol&gt;
 
 &lt;!--listend--&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git commit -am &amp;quot;Update submodule url.&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update submodule url.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;合并仓库并保留提交记录&#34;&gt;合并仓库并保留提交记录&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -106,14 +130,22 @@ git commit -am &amp;quot;Remove a submodule.&amp;quot;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&#34;在repo2中依次运行下列命令&#34;&gt;在repo2中依次运行下列命令&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git remote add other /your/path/to/repo1
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git remote add other /your/path/to/repo1
 git fetch other
 git checkout -b repo1 other/master
 git checkout master
-git merge repo1 --allow-unrelated-histories
-&lt;/code&gt;&lt;/pre&gt;
-
+git merge repo1 --allow-unrelated-histories&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;常见错误&#34;&gt;常见错误：&lt;/h3&gt;
 
 &lt;p&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/p&gt;</description>

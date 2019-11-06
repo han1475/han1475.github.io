@@ -70,7 +70,7 @@
 
 <meta itemprop="datePublished" content="2019-11-06T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-11-07T00:20:50&#43;08:00" />
-<meta itemprop="wordCount" content="467">
+<meta itemprop="wordCount" content="481">
 
 
 
@@ -355,10 +355,14 @@
 </blockquote>
 
 <h3 id="添加子模块">添加子模块</h3>
-
-<pre><code class="language-nil">git submodule add MOD_REPO YOUR_PATH
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil">git submodule add MOD_REPO YOUR_PATH</code></pre></td></tr></table>
+</div>
+</div>
 <p>上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。</p>
 
 <h3 id="使用包含子模块的项目-可以采取下列两种方式">使用包含子模块的项目,可以采取下列两种方式。</h3>
@@ -368,28 +372,44 @@
 </ol>
 
 <!--listend-->
-
-<pre><code class="language-shell">git clone MAIN_REPO
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git clone MAIN_REPO
 git submodule init
-git submodule update
-</code></pre>
-
+git submodule update</code></pre></td></tr></table>
+</div>
+</div>
 <ol>
 <li>在克隆时增加额外参数</li>
 </ol>
 
 <!--listend-->
-
-<pre><code class="language-shell">git clone MAIN_REPO --recursive
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git clone MAIN_REPO --recursive</code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="删除子模块">删除子模块</h3>
-
-<pre><code class="language-shell">git submodule deinit {MOD_NAME}
-git rm --cached {MOD_NAME}
-git commit -am &quot;Remove a submodule.&quot;
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git submodule deinit <span class="o">{</span>MOD_NAME<span class="o">}</span>
+git rm --cached <span class="o">{</span>MOD_NAME<span class="o">}</span>
+git commit -am <span class="s2">&#34;Remove a submodule.&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="修改某个模块的url属性">修改某个模块的URL属性</h3>
 
 <ol>
@@ -399,10 +419,14 @@ git commit -am &quot;Remove a submodule.&quot;
 </ol>
 
 <!--listend-->
-
-<pre><code class="language-shell">git commit -am &quot;Update submodule url.&quot;
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git commit -am <span class="s2">&#34;Update submodule url.&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="合并仓库并保留提交记录">合并仓库并保留提交记录</h2>
 
 <blockquote>
@@ -410,14 +434,22 @@ git commit -am &quot;Remove a submodule.&quot;
 </blockquote>
 
 <h3 id="在repo2中依次运行下列命令">在repo2中依次运行下列命令</h3>
-
-<pre><code class="language-shell">git remote add other /your/path/to/repo1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git remote add other /your/path/to/repo1
 git fetch other
 git checkout -b repo1 other/master
 git checkout master
-git merge repo1 --allow-unrelated-histories
-</code></pre>
-
+git merge repo1 --allow-unrelated-histories</code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="常见错误">常见错误：</h3>
 
 <p>为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&ndash;allow-unrelated-histories选项。</p>
