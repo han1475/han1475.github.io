@@ -12,30 +12,6 @@
     
     
     <item>
-      <title>关于</title>
-      <link>https://han1475.com/about/</link>
-      <pubDate>Tue, 06 Aug 2019 03:06:03 +0800</pubDate>
-      
-      <guid>https://han1475.com/about/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;程序员-技术宅-单身狗&#34;&gt;程序员、技术宅、单身狗&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;emacs新手党&lt;/li&gt;
-&lt;li&gt;一切软件皆为vim键位&lt;/li&gt;
-&lt;li&gt;大前端爱好者&lt;/li&gt;
-&lt;li&gt;图吧垃圾佬&lt;/li&gt;
-&lt;li&gt;现在惯用Arch Linux&lt;/li&gt;
-&lt;li&gt;B站活跃分子&lt;/li&gt;
-&lt;li&gt;Java开发迷路ing&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>git常用命令</title>
       <link>https://han1475.com/post/git/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
@@ -149,6 +125,30 @@ git merge repo1 --allow-unrelated-histories&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&
 &lt;h3 id=&#34;常见错误&#34;&gt;常见错误：&lt;/h3&gt;
 
 &lt;p&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://han1475.com/about/</link>
+      <pubDate>Tue, 06 Aug 2019 03:06:03 +0800</pubDate>
+      
+      <guid>https://han1475.com/about/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;程序员-技术宅-单身狗&#34;&gt;程序员、技术宅、单身狗&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;emacs新手党&lt;/li&gt;
+&lt;li&gt;一切软件皆为vim键位&lt;/li&gt;
+&lt;li&gt;大前端爱好者&lt;/li&gt;
+&lt;li&gt;图吧垃圾佬&lt;/li&gt;
+&lt;li&gt;现在惯用Arch Linux&lt;/li&gt;
+&lt;li&gt;B站活跃分子&lt;/li&gt;
+&lt;li&gt;Java开发迷路ing&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       
     </item>
     
