@@ -1,7 +1,7 @@
 +++
 title = "git常用命令"
 date = 2019-11-06
-lastmod = 2019-11-07T00:20:50+08:00
+lastmod = 2019-11-07T00:47:27+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
@@ -19,7 +19,7 @@ draft = false
 
 ### 添加子模块 {#添加子模块}
 
-```nil
+```shell
 git submodule add MOD_REPO YOUR_PATH
 ```
 
