@@ -41,7 +41,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "归档"
+  name = "全部文章"
   weight = 20
   identifier = "archives"
   url = "/post/"
@@ -55,7 +55,16 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   weight = 40
   identifier = "categories"
   url = "/categories/"
-
+[[menu.main]]
+  name = "关于"
+  weight = 50
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "订阅"
+  weight = 60
+  identifier = "feed"
+  url = "/index.xml"
 
 [params]
   since = "2017"            # Site creation time          # 站点建立时间
@@ -63,9 +72,12 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = ""        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo"]
-  description = "小蜗牛的大梦想"
+  logoTitle = "小蜗牛的大梦想"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["linux","emacs","program","han1475","博客"]
+  description = "这是我的个人博客"
+
+  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目
+  archive-paginate = 1000
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -81,6 +93,11 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
+  [params.search.google]    # google custom search, see https://cse.google.com
+    enable = true
+    id = "000156910018797923656:e0czhfw1qsn"
+    title = "站内搜索"
+
   [params.social]                                         # 社交链接
     a-email = "mailto:me@han1475.com"
     #b-stack-overflow = "http://192.168.1.15"
@@ -88,7 +105,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     #d-facebook = "http://192.168.1.15"
     #e-linkedin = "http://192.168.1.15"
     #f-google = "http://192.168.1.15"
-    #g-github = "http://192.168.1.15"
+    g-github = "https://github.com/han1475"
     #h-weibo = "http://192.168.1.15"
     #i-zhihu = "http://192.168.1.15"
     #j-douban = "http://192.168.1.15"
