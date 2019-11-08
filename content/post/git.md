@@ -1,7 +1,7 @@
 +++
 title = "git常用命令"
 date = 2019-11-06
-lastmod = 2019-11-07T00:47:27+08:00
+lastmod = 2019-11-08T15:30:45+08:00
 tags = ["git"]
 categories = ["git"]
 draft = false
@@ -19,7 +19,7 @@ draft = false
 
 ### 添加子模块 {#添加子模块}
 
-```shell
+```sh
 git submodule add MOD_REPO YOUR_PATH
 ```
 
@@ -30,26 +30,21 @@ git submodule add MOD_REPO YOUR_PATH
 
 1.  克隆后再初始化并更新子模块
 
-<!--listend-->
+    ```sh
+    git clone MAIN_REPO
+    git submodule init
+    git submodule update
+    ```
+2.  在克隆时增加额外参数
 
-```shell
-git clone MAIN_REPO
-git submodule init
-git submodule update
-```
-
-1.  在克隆时增加额外参数
-
-<!--listend-->
-
-```shell
-git clone MAIN_REPO --recursive
-```
+    ```sh
+    git clone MAIN_REPO --recursive
+    ```
 
 
 ### 删除子模块 {#删除子模块}
 
-```shell
+```sh
 git submodule deinit {MOD_NAME}
 git rm --cached {MOD_NAME}
 git commit -am "Remove a submodule."
@@ -62,11 +57,9 @@ git commit -am "Remove a submodule."
 2.  运行git submodule sync 命令，将新的url更新到文件.git/config
 3.  提交修改
 
-<!--listend-->
-
-```shell
-git commit -am "Update submodule url."
-```
+    ```sh
+    git commit -am "Update submodule url."
+    ```
 
 
 ## 合并仓库并保留提交记录 {#合并仓库并保留提交记录}

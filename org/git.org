@@ -11,52 +11,51 @@
 <!--more-->
 
 ** 子模块
-   #+BEGIN_QUOTE
-     Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。 
-     它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。
-   #+END_QUOTE  
+     #+BEGIN_QUOTE
+       Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。 
+       它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。
+     #+END_QUOTE  
 *** 添加子模块 
-    #+BEGIN_SRC shell
-      git submodule add MOD_REPO YOUR_PATH
-    #+END_SRC
+      #+BEGIN_SRC sh
+        git submodule add MOD_REPO YOUR_PATH
+      #+END_SRC
     上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
 *** 使用包含子模块的项目,可以采取下列两种方式。
-    1. 克隆后再初始化并更新子模块
-    #+BEGIN_SRC shell 
-      git clone MAIN_REPO
-      git submodule init
-      git submodule update
-    #+END_SRC
+    1. 克隆后再初始化并更新子模块    
+      #+BEGIN_SRC sh
+        git clone MAIN_REPO
+        git submodule init
+        git submodule update
+      #+END_SRC
     2. 在克隆时增加额外参数
-    #+BEGIN_SRC shell
-      git clone MAIN_REPO --recursive
-    #+END_SRC
+      #+BEGIN_SRC sh
+        git clone MAIN_REPO --recursive
+      #+END_SRC
 *** 删除子模块
-    #+BEGIN_SRC shell
-      git submodule deinit {MOD_NAME} 
-      git rm --cached {MOD_NAME} 
-      git commit -am "Remove a submodule." 
-    #+END_SRC
+      #+BEGIN_SRC sh
+        git submodule deinit {MOD_NAME} 
+        git rm --cached {MOD_NAME} 
+        git commit -am "Remove a submodule." 
+      #+END_SRC
 *** 修改某个模块的URL属性
     1. 修改.gitmodule文件中对应模块的url属性
     2. 运行git submodule sync 命令，将新的url更新到文件.git/config
     3. 提交修改 
-    #+BEGIN_SRC shell
-      git commit -am "Update submodule url."
-    #+END_SRC
-
+      #+BEGIN_SRC sh
+        git commit -am "Update submodule url."
+      #+END_SRC
 
 ** 合并仓库并保留提交记录
-   #+BEGIN_QUOTE
-     将repo1合并到repo2中，并保留repo1的commit记录。
-   #+END_QUOTE
+     #+BEGIN_QUOTE
+       将repo1合并到repo2中，并保留repo1的commit记录。
+     #+END_QUOTE
 *** 在repo2中依次运行下列命令
-    #+BEGIN_SRC shell
-      git remote add other /your/path/to/repo1
-      git fetch other
-      git checkout -b repo1 other/master
-      git checkout master
-      git merge repo1 --allow-unrelated-histories
-     #+END_SRC 
+      #+BEGIN_SRC shell
+        git remote add other /your/path/to/repo1
+        git fetch other
+        git checkout -b repo1 other/master
+        git checkout master
+        git merge repo1 --allow-unrelated-histories
+      #+END_SRC 
 *** 常见错误：
-    为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
+      为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了--allow-unrelated-histories选项。
