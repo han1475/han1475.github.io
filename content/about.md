@@ -1,7 +1,7 @@
 +++
 title = "关于"
 date = 2019-11-08
-lastmod = 2019-11-08T17:02:24+08:00
+lastmod = 2019-11-08T17:15:05+08:00
 draft = false
 toc = false
 +++
@@ -16,10 +16,10 @@ toc = false
 
 爱好很多，喜欢尝试新事物，又偏爱老物件。
 
--   **惯用操作系统** —— \*Arch Linux\*，喜欢尝试新的特性，又受够了Gentoo的编译地狱。
--   **常用快捷键设置** —— \*vi\*，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。
--   **日常编辑器** —— \*Emacs\*，用于写博客以及其他日常文本编辑。
--   **代码编辑器** —— \*VSCode\*，尤其推出Remote-SSH之后，方便window在Linux虚拟机下的工作。
+-   **惯用操作系统** —— **Arch Linux** ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。
+-   **常用快捷键设置** —— **vi** ，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。
+-   **日常编辑器** —— **Emacs** ，用于写博客以及其他日常文本编辑。
+-   **代码编辑器** —— **VSCode** ，尤其推出 `Remote-SSH插件` 之后，方便window下访问Linux虚拟机。
 -   **编程语言** —— 都会，但是不够深入 `HTML/CSS/JS=，=Java=，=c/c++/c#`
 
 

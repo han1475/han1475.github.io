@@ -14,10 +14,10 @@
 ** 关于我
 *** 程序猿
     爱好很多，喜欢尝试新事物，又偏爱老物件。
-    - *惯用操作系统* —— *Arch Linux*，喜欢尝试新的特性，又受够了Gentoo的编译地狱。
-    - *常用快捷键设置* —— *vi*，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。
-    - *日常编辑器* —— *Emacs*，用于写博客以及其他日常文本编辑。
-    - *代码编辑器* —— *VSCode*，尤其推出Remote-SSH之后，方便window在Linux虚拟机下的工作。
+    - *惯用操作系统* —— *Arch Linux* ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。
+    - *常用快捷键设置* —— *vi* ，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。
+    - *日常编辑器* —— *Emacs* ，用于写博客以及其他日常文本编辑。
+    - *代码编辑器* —— *VSCode* ，尤其推出 =Remote-SSH插件= 之后，方便window下访问Linux虚拟机。
     - *编程语言* —— 都会，但是不够深入 =HTML/CSS/JS=，=Java=，=c/c++/c#=
 *** 技术宅
     喜欢折腾硬件设备
