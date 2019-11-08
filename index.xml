@@ -29,10 +29,10 @@
 &lt;p&gt;爱好很多，喜欢尝试新事物，又偏爱老物件。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;惯用操作系统&lt;/strong&gt; —— *Arch Linux*，喜欢尝试新的特性，又受够了Gentoo的编译地狱。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;常用快捷键设置&lt;/strong&gt; —— *vi*，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;日常编辑器&lt;/strong&gt; —— *Emacs*，用于写博客以及其他日常文本编辑。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;代码编辑器&lt;/strong&gt; —— *VSCode*，尤其推出Remote-SSH之后，方便window在Linux虚拟机下的工作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;惯用操作系统&lt;/strong&gt; —— &lt;strong&gt;Arch Linux&lt;/strong&gt; ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;常用快捷键设置&lt;/strong&gt; —— &lt;strong&gt;vi&lt;/strong&gt; ，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;日常编辑器&lt;/strong&gt; —— &lt;strong&gt;Emacs&lt;/strong&gt; ，用于写博客以及其他日常文本编辑。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码编辑器&lt;/strong&gt; —— &lt;strong&gt;VSCode&lt;/strong&gt; ，尤其推出 &lt;code&gt;Remote-SSH插件&lt;/code&gt; 之后，方便window下访问Linux虚拟机。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;编程语言&lt;/strong&gt; —— 都会，但是不够深入 &lt;code&gt;HTML/CSS/JS=，=Java=，=c/c++/c#&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
