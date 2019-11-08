@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://han1475.com/about/</loc>
+    <lastmod>2019-11-08T17:02:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/</loc>
+    <lastmod>2019-11-08T17:02:24+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://han1475.com/categories/</loc>
     <lastmod>2019-11-08T15:30:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,14 +23,14 @@
   </url>
   
   <url>
-    <loc>https://han1475.com/categories/git/</loc>
+    <loc>https://han1475.com/tags/git/</loc>
     <lastmod>2019-11-08T15:30:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://han1475.com/tags/git/</loc>
+    <loc>https://han1475.com/categories/git/</loc>
     <lastmod>2019-11-08T15:30:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -39,20 +53,6 @@
   <url>
     <loc>https://han1475.com/tags/</loc>
     <lastmod>2019-11-08T15:30:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/</loc>
-    <lastmod>2019-11-08T15:30:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/about/</loc>
-    <lastmod>2019-08-06T03:06:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
