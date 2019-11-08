@@ -63,13 +63,13 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://han1475.com/post/git/" />
 <meta property="article:published_time" content="2019-11-06T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-07T00:47:27+08:00" />
+<meta property="article:modified_time" content="2019-11-08T15:30:45+08:00" />
 <meta itemprop="name" content="git常用命令">
 <meta itemprop="description" content="本人经常使用git进行版本控制，因此总结常用命令就有了本文。">
 
 
 <meta itemprop="datePublished" content="2019-11-06T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-07T00:47:27&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-08T15:30:45&#43;08:00" />
 <meta itemprop="wordCount" content="481">
 
 
@@ -431,10 +431,10 @@
 <h3 id="添加子模块">添加子模块</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git submodule add MOD_REPO YOUR_PATH</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git submodule add MOD_REPO YOUR_PATH</code></pre></td></tr></table>
 </div>
 </div>
 <p>上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。</p>
@@ -442,44 +442,40 @@
 <h3 id="使用包含子模块的项目-可以采取下列两种方式">使用包含子模块的项目,可以采取下列两种方式。</h3>
 
 <ol>
-<li>克隆后再初始化并更新子模块</li>
-</ol>
-
-<!--listend-->
+<li><p>克隆后再初始化并更新子模块</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git clone MAIN_REPO
+<pre class="chroma"><code class="language-sh" data-lang="sh">git clone MAIN_REPO
 git submodule init
 git submodule update</code></pre></td></tr></table>
 </div>
-</div>
-<ol>
-<li>在克隆时增加额外参数</li>
-</ol>
+</div></li>
 
-<!--listend-->
+<li><p>在克隆时增加额外参数</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git clone MAIN_REPO --recursive</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git clone MAIN_REPO --recursive</code></pre></td></tr></table>
 </div>
-</div>
+</div></li>
+</ol>
+
 <h3 id="删除子模块">删除子模块</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git submodule deinit <span class="o">{</span>MOD_NAME<span class="o">}</span>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git submodule deinit <span class="o">{</span>MOD_NAME<span class="o">}</span>
 git rm --cached <span class="o">{</span>MOD_NAME<span class="o">}</span>
 git commit -am <span class="s2">&#34;Remove a submodule.&#34;</span></code></pre></td></tr></table>
 </div>
@@ -489,18 +485,18 @@ git commit -am <span class="s2">&#34;Remove a submodule.&#34;</span></code></pre
 <ol>
 <li>修改.gitmodule文件中对应模块的url属性</li>
 <li>运行git submodule sync 命令，将新的url更新到文件.git/config</li>
-<li>提交修改</li>
-</ol>
 
-<!--listend-->
+<li><p>提交修改</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git commit -am <span class="s2">&#34;Update submodule url.&#34;</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git commit -am <span class="s2">&#34;Update submodule url.&#34;</span></code></pre></td></tr></table>
 </div>
-</div>
+</div></li>
+</ol>
+
 <h2 id="合并仓库并保留提交记录">合并仓库并保留提交记录</h2>
 
 <blockquote>
@@ -539,7 +535,7 @@ git merge repo1 --allow-unrelated-histories</code></pre></td></tr></table>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-11-07
+      2019-11-08
       
     </span>
   </p>
