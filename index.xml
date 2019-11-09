@@ -6,10 +6,29 @@
     <description>Recent content on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>emacs配置</title>
+      <link>https://han1475.com/post/emacs-configuration/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://han1475.com/post/emacs-configuration/</guid>
+      
+        <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;
+
+&lt;h2 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;org&lt;/code&gt; 转换 &lt;code&gt;Markdown&lt;/code&gt; 工具，实现Emacs下写作，并生成静态网站，本站文章就是这样写的。&lt;/p&gt;
+
+&lt;h2 id=&#34;yasnippet&#34;&gt;yasnippet&lt;/h2&gt;
+
+&lt;p&gt;模板工具，用于生成固定内容，减少输入量。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>关于</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 小蜗牛的大梦想</title>
-    <link>https://han1475.com/post/</link>
-    <description>Recent content in Posts on 小蜗牛的大梦想</description>
+    <title>emacs on 小蜗牛的大梦想</title>
+    <link>https://han1475.com/tags/emacs/</link>
+    <description>Recent content in emacs on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://han1475.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://han1475.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://han1475.com/post/emacs-configuration/</guid>
       <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>git常用命令</title>
-      <link>https://han1475.com/post/git/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/post/git/</guid>
-      <description>&lt;p&gt;本人经常使用git进行版本控制，因此总结常用命令就有了本文。&lt;/p&gt;</description>
     </item>
     
   </channel>
