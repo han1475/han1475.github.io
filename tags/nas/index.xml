@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nas on 小蜗牛的大梦想</title>
+    <link>https://han1475.com/tags/nas/</link>
+    <description>Recent content in nas on 小蜗牛的大梦想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://han1475.com/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>unraid折腾记（持续更新）</title>
+      <link>https://han1475.com/post/unraid/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://han1475.com/post/unraid/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。本文安装Unraid的平台配置是h61主板+G1610赛扬cpu。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
