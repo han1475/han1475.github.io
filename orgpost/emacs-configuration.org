@@ -7,7 +7,14 @@
 #+HUGO_DRAFT: false
 本人的 *Emacs* 配置，持续更新
 <!--more-->
-** ox-hugo
-   =org= 转换 =Markdown= 工具，实现Emacs下写作，并生成静态网站，本站文章就是这样写的。
-** yasnippet
-   模板工具，用于生成固定内容，减少输入量。
+** 涉及工具
+*** ox-hugo
+   =org= 转换 =Markdown= 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。
+*** yasnippet
+   输入模板，减少重复输入。
+*** company
+   智能提示。
+*** ivy
+    命令智能提示。
+
+To Be Continued.
