@@ -16,11 +16,12 @@ jobs:
     - name: setup hugo
       run: |
         echo 'Downloading hugo'
-        curl -sSL https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz > /tmp/hugo.tar.gz 
-        tar -f /tmp/hugo.tar.gz -xz
+        mkdir work
+        wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb -O $PWD/work/hugo.deb
+        sudo dpkg -i $PWD/work/hugo.deb
         
         echo 'Building the hugo site'
-        ./hugo
+        ./hugo -v 
         
         echo 'Cloning the GitHub Pages repo'
         git config --global user.name ${GIT_USER}
