@@ -10,22 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-      with:
-        ref: source 
-    - name: build
+    - name: build and push
       run: |
+        git config --global user.name ${GIT_USER}
+        git config --global user.email ${GIT_EMAIL}
+        
         echo 'Downloading hugo'
         mkdir work
         wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb -O $PWD/work/hugo.deb
         sudo dpkg -i $PWD/work/hugo.deb
         
         echo 'Building the hugo site'
+        git clone -b source https://${GH_TOKEN}@${REPO} source
+        cd source
         hugo -v 
         
         echo 'Cloning the GitHub Pages repo'
-        git config --global user.name ${GIT_USER}
-        git config --global user.email ${GIT_EMAIL}
         rm -rf "${BUILD_DIR}"
         git clone -b master https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
         rm -rf "${BUILD_DIR}/*"
