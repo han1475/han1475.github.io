@@ -21,7 +21,7 @@ jobs:
         sudo dpkg -i $PWD/work/hugo.deb
         
         echo 'Building the hugo site'
-        ./hugo -v 
+        hugo -v 
         
         echo 'Cloning the GitHub Pages repo'
         git config --global user.name ${GIT_USER}
