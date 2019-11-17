@@ -1,0 +1,43 @@
+name: build and publish 
+
+on:
+  push:
+    branches: 
+      - source
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: source 
+    - name: setup hugo
+      run: |
+        echo 'Downloading hugo'
+        curl -sSL https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz > /tmp/hugo.tar.gz && tar -f /tmp/hugo.tar.gz -xz
+        
+        echo 'Building the hugo site'
+        ./hugo
+        
+        echo 'Cloning the GitHub Pages repo'
+        git config --global user.name ${GIT_USER}
+        git config --global user.email ${GIT_EMAIL}
+        rm -rf "${BUILD_DIR}"
+        git clone https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
+        
+        echo 'Moving the content over'
+        cp -r public/* "${BUILD_DIR}"
+        cd "${BUILD_DIR}"
+        echo "han1475.com" >> CNAME
+        echo "Personal site of han1475, managed by emacs, org mode, git, ox-hugo, and travis." >> README.md
+        git add .
+        git commit -m 'upate blog'
+        git push -u origin master -f
+      env:
+        GIT_USER: han1475
+        GIT_EMAIL: me@han1475.com
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        REPO: github.com/han1475/han1475.github.io.git
+        BUILD_DIR: container
