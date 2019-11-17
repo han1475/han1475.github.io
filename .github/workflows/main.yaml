@@ -46,4 +46,4 @@ jobs:
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         REPO: github.com/han1475/han1475.github.io.git
         BUILD_DIR: container
-        HUGO_VERSION: 0.59.1
+        HUGO_VERSION: 0.57.2
