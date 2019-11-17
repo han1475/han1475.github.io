@@ -1,0 +1,13 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Github Actions的使用
+#+DATE: 2019-11-17
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: github
+#+HUGO_CATEGORIES: 笔记
+#+HUGO_DRAFT: false
+#+BEGIN_QUOTE
+  Github Actions是Github推出的自动化工作流程工具。
+#+END_QUOTE
+<!--more-->
+To Be Continued.
+
