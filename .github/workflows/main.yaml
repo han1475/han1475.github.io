@@ -39,7 +39,6 @@ jobs:
         echo 'Committing the site to git and pushing'
         git add .
         git commit -m 'upate blog'
-        git push origin master -f
       env:
         GIT_USER: han1475
         GIT_EMAIL: me@han1475.com
@@ -47,3 +46,7 @@ jobs:
         REPO: github.com/han1475/han1475.github.io.git
         BUILD_DIR: container
         HUGO_VERSION: 0.59.1
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
