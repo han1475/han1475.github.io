@@ -21,7 +21,7 @@ jobs:
         sudo dpkg -i $PWD/work/hugo.deb
         
         echo 'Building the hugo site'
-        git clone -b source https://${GH_TOKEN}@${REPO} source
+        git clone -b source --recursive https://${GH_TOKEN}@${REPO} source
         cd source
         hugo -v 
         
