@@ -28,6 +28,7 @@ jobs:
         git config --global user.email ${GIT_EMAIL}
         rm -rf "${BUILD_DIR}"
         git clone -b master https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
+        rm -rf "${BUILD_DIR}"
 
         
         echo 'Moving the content over'
