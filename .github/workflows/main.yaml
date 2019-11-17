@@ -26,8 +26,9 @@ jobs:
         echo 'Cloning the GitHub Pages repo'
         git config --global user.name ${GIT_USER}
         git config --global user.email ${GIT_EMAIL}
-        git clone https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
         rm -rf "${BUILD_DIR}"
+        git clone https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
+
         
         echo 'Moving the content over'
         cp -r public/* "${BUILD_DIR}"
