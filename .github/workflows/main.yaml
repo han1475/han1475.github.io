@@ -28,14 +28,11 @@ jobs:
         echo 'Cloning the GitHub Pages repo'
         rm -rf "${BUILD_DIR}"
         git clone -b master https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
-        rm -rf "${BUILD_DIR}/*"
 
         
         echo 'Moving the content over'
         cp -r public/* "${BUILD_DIR}"
         cd "${BUILD_DIR}"
-        echo "han1475.com" >> CNAME
-        echo "Personal site of han1475, managed by emacs, org mode, git, ox-hugo, and travis." >> README.md
         
         echo 'Committing the site to git and pushing'
         git add .
