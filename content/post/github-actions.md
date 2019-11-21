@@ -1,7 +1,7 @@
 +++
 title = "Github Actions的使用"
 date = 2019-11-17
-lastmod = 2019-11-21T21:38:46+08:00
+lastmod = 2019-11-21T21:58:44+08:00
 tags = ["github"]
 categories = ["笔记"]
 draft = false
@@ -21,25 +21,21 @@ draft = false
 
 1.  Github Actions采取了类似npm包的处理方式，允许直接引用其他人写好的Action脚本文件。
 2.  Github在市场中提供了Action的搜索功能，方便自行搜索，搜索时只需要在类型（Type）中选择Actions即可。
-3.  Github Actions 配置直接存储于代码仓库的 `=.github/workflows =` 目录下，避免配置分离难以维护。
+3.  Github Actions 配置直接存储于代码仓库的 `.github/workflows` 目录下，避免配置分离难以维护。
 
 
 ## 三、关于GitHub Actions引用他人脚本 {#三-关于github-actions引用他人脚本}
 
-1.  采用 `=username/reponame=` 的方式引用。如 `=actions/setup-node=` 就是指引用官方仓库
+1.  采用 `username/reponame` 的方式引用。
+    -   如 `actions/setup-node` 就是指引用 `github.com/actions/setup-node` 这个代码仓库.
+    -   事实上Github官方的Actions都存储在 `github.com/actions` 这个用户名的代码仓库中。
+2.  Github Actions采用代码仓库的方式存储，因此你可以引用特定版本，下列都是正确的引用。
 
-`=github.com/actions/setup-node=` 安装Node.js的脚本。Github Actions官方的Actions都存储在
-==github.com/actions==仓库中
-
-1.  Github Actions采用代码仓库的方式存储，因此你可以引用特定版本，下列都是正确的引用。
-
-<!--listend-->
-
-```nil
-actions/setup-node@9a99bb3 # 指向一个 commit
-actions/setup-node@v1.2.0  # 指向一个标签
-actions/setup-node@master  # 指向一个分支
-```
+    ```nil
+    actions/setup-node@9a99bb3 # 指向一个 commit
+    actions/setup-node@v1.2.0  # 指向一个标签
+    actions/setup-node@master  # 指向一个分支
+    ```
 
 
 ## 四、基本概念 {#四-基本概念}
