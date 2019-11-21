@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="han1475" />
-  <meta name="description" content=" Github Actions是Github推出的自动化工作流程工具。
+  <meta name="description" content=" Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
 " />
 
   <meta name="keywords" content="linux, emacs, program, han1475, 博客" />
@@ -60,21 +60,21 @@
 
 <meta property="og:title" content="Github Actions的使用" />
 <meta property="og:description" content="
-Github Actions是Github推出的自动化工作流程工具。
+Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://han1475.com/post/github-actions/" />
 <meta property="article:published_time" content="2019-11-17T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-17T23:35:52+08:00" />
+<meta property="article:modified_time" content="2019-11-21T21:38:46+08:00" />
 <meta itemprop="name" content="Github Actions的使用">
 <meta itemprop="description" content="
-Github Actions是Github推出的自动化工作流程工具。
+Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
 ">
 
 
 <meta itemprop="datePublished" content="2019-11-17T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-17T23:35:52&#43;08:00" />
-<meta itemprop="wordCount" content="31">
+<meta itemprop="dateModified" content="2019-11-21T21:38:46&#43;08:00" />
+<meta itemprop="wordCount" content="454">
 
 
 
@@ -82,7 +82,7 @@ Github Actions是Github推出的自动化工作流程工具。
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Github Actions的使用"/>
 <meta name="twitter:description" content="
-Github Actions是Github推出的自动化工作流程工具。
+Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
 "/>
 
 <!--[if lte IE 9]>
@@ -402,15 +402,65 @@ Github Actions是Github推出的自动化工作流程工具。
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#一-github-actions是什么">一、GitHub Actions是什么</a></li>
+<li><a href="#二-为什么选择github-actions">二、为什么选择GitHub Actions</a></li>
+<li><a href="#三-关于github-actions引用他人脚本">三、关于GitHub Actions引用他人脚本</a></li>
+<li><a href="#四-基本概念">四、基本概念</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
       <blockquote>
-<p>Github Actions是Github推出的自动化工作流程工具。</p>
+<p>Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。</p>
 </blockquote>
+
+<h2 id="一-github-actions是什么">一、GitHub Actions是什么</h2>
+
+<p>持续集成包括很多操作，比如运行测试，构建版本等，GitHub把这些操作称之为Actions。</p>
+
+<h2 id="二-为什么选择github-actions">二、为什么选择GitHub Actions</h2>
+
+<ol>
+<li>Github Actions采取了类似npm包的处理方式，允许直接引用其他人写好的Action脚本文件。</li>
+<li>Github在市场中提供了Action的搜索功能，方便自行搜索，搜索时只需要在类型（Type）中选择Actions即可。</li>
+<li>Github Actions 配置直接存储于代码仓库的 <code>=.github/workflows =</code> 目录下，避免配置分离难以维护。</li>
+</ol>
+
+<h2 id="三-关于github-actions引用他人脚本">三、关于GitHub Actions引用他人脚本</h2>
+
+<ol>
+<li>采用 <code>=username/reponame=</code> 的方式引用。如 <code>=actions/setup-node=</code> 就是指引用官方仓库</li>
+</ol>
+
+<p><code>=github.com/actions/setup-node=</code> 安装Node.js的脚本。Github Actions官方的Actions都存储在
+==github.com/actions==仓库中</p>
+
+<ol>
+<li>Github Actions采用代码仓库的方式存储，因此你可以引用特定版本，下列都是正确的引用。</li>
+</ol>
+
+<!--listend-->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil">actions/setup-node@9a99bb3 # 指向一个 commit
+actions/setup-node@v1.2.0  # 指向一个标签
+actions/setup-node@master  # 指向一个分支</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="四-基本概念">四、基本概念</h2>
 
 <p>To Be Continued.</p>
     </div>
@@ -425,7 +475,7 @@ Github Actions是Github推出的自动化工作流程工具。
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-11-17
+      2019-11-21
       
     </span>
   </p>
