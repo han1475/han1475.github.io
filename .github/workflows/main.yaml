@@ -28,19 +28,19 @@ jobs:
         echo 'Cloning the GitHub Pages repo'
         rm -rf "${BUILD_DIR}"
         git clone -b master https://${GH_TOKEN}@${REPO} "${BUILD_DIR}"
-        rm -rf "${BUILD_DIR}/*"
 
         
         echo 'Moving the content over'
         cp -r public/* "${BUILD_DIR}"
         cd "${BUILD_DIR}"
-        echo "han1475.com" >> CNAME
-        echo "Personal site of han1475, managed by emacs, org mode, git, ox-hugo, and travis." >> README.md
-        
-        echo 'Committing the site to git and pushing'
-        git add .
-        git commit -m 'upate blog'
-        git push origin -f
+        if git diff --exit-code; then
+          echo "There is nothing to commit, so aborting"
+        else
+          echo 'Committing the site to git and pushing'
+          git add .
+          git commit -m 'upate blog'
+          git push origin -f
+        fi
       env:
         GIT_USER: han1475
         GIT_EMAIL: me@han1475.com
