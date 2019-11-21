@@ -3,7 +3,56 @@
   
   <url>
     <loc>https://han1475.com/categories/</loc>
-    <lastmod>2019-11-21T21:58:44+08:00</lastmod>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/post/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/categories/raid/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/tags/raid/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/tags/snapraid/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/tags/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/post/not-standard-raid-solutions-compare/</loc>
+    <lastmod>2019-11-21T22:35:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,27 +66,6 @@
   
   <url>
     <loc>https://han1475.com/post/github-actions/</loc>
-    <lastmod>2019-11-21T21:58:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/post/</loc>
-    <lastmod>2019-11-21T21:58:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/tags/</loc>
-    <lastmod>2019-11-21T21:58:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/</loc>
     <lastmod>2019-11-21T21:58:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
