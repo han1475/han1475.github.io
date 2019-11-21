@@ -1,0 +1,14 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: （原文转载自SnapRAID官网）常见非标准RAID解决方案对比
+#+DATE: 2019-11-21
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: raid snapraid
+#+HUGO_CATEGORIES: raid
+#+HUGO_DRAFT: false
+#+BEGIN_QUOTE 
+  本文原文转载自SnapRAID官网,重新排版仅作备份。
+#+END_QUOTE
+<!--more-->
+To Be Continued. 
+[[http://www.snapraid.it/compare][原文地址]]
+
