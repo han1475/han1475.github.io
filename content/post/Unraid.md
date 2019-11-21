@@ -1,7 +1,7 @@
 +++
 title = "unraid折腾记（持续更新）"
 date = 2019-11-13
-lastmod = 2019-11-13T23:38:14+08:00
+lastmod = 2019-11-21T21:40:34+08:00
 tags = ["unraid", "nas", "virtualization"]
 categories = ["handware"]
 draft = false
@@ -28,4 +28,4 @@ draft = false
 
 1.  在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。
 
-To Be Continued.
+由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。

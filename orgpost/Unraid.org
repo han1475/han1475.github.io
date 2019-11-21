@@ -22,4 +22,5 @@ Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic
    5. 出现无法获取ip的问题，设置U盘config/network.cfg文件中的IPADDR(IP地址)，NETMASK（子网掩码），GATEWAY(网关)后解决。
 ** 设置
    1. 在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。
-   To Be Continued.
+
+由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。
