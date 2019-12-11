@@ -164,7 +164,9 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 
 &lt;h3 id=&#34;程序猿&#34;&gt;程序猿&lt;/h3&gt;
 
+&lt;blockquote&gt;
 &lt;p&gt;爱好很多，喜欢尝试新事物，又偏爱老物件。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;惯用操作系统&lt;/strong&gt; —— &lt;strong&gt;Arch Linux&lt;/strong&gt; ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。&lt;/li&gt;
@@ -176,7 +178,9 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 
 &lt;h3 id=&#34;技术宅&#34;&gt;技术宅&lt;/h3&gt;
 
+&lt;blockquote&gt;
 &lt;p&gt;喜欢折腾硬件设备&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;单片机&lt;/strong&gt; 尝试过51，接下来试试Micro Bit和Arduino。&lt;/li&gt;
@@ -208,7 +212,6 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 &lt;ul&gt;
 &lt;li&gt;本站所使用的主题是&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;hugo-theme-jane&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;本站是在Emacs下写作，通过&lt;a href=&#34;https://github.com/kaushalmodi/ox-hugo&#34;&gt;ox-hugo&lt;/a&gt;导出为Markdown,再由&lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;编译为静态网站发布在github上的。&lt;/li&gt;
-&lt;li&gt;本站内容除特殊说明外均采用&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34;&gt;知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
