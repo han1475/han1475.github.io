@@ -1,7 +1,7 @@
 +++
 title = "关于"
 date = 2019-11-08
-lastmod = 2019-11-08T17:15:05+08:00
+lastmod = 2019-12-11T21:11:42+08:00
 draft = false
 toc = false
 +++
@@ -14,7 +14,7 @@ toc = false
 
 ### 程序猿 {#程序猿}
 
-爱好很多，喜欢尝试新事物，又偏爱老物件。
+> 爱好很多，喜欢尝试新事物，又偏爱老物件。
 
 -   **惯用操作系统** —— **Arch Linux** ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。
 -   **常用快捷键设置** —— **vi** ，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。
@@ -25,7 +25,7 @@ toc = false
 
 ### 技术宅 {#技术宅}
 
-喜欢折腾硬件设备
+> 喜欢折腾硬件设备
 
 -   **单片机** 尝试过51，接下来试试Micro Bit和Arduino。
 -   **树莓派** 很好但是太贵，可以尝试国产方案。
@@ -53,4 +53,3 @@ toc = false
 
 -   本站所使用的主题是[hugo-theme-jane](https://github.com/xianmin/hugo-theme-jane)。
 -   本站是在Emacs下写作，通过[ox-hugo](https://github.com/kaushalmodi/ox-hugo)导出为Markdown,再由[hugo](https://gohugo.io/)编译为静态网站发布在github上的。
--   本站内容除特殊说明外均采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
