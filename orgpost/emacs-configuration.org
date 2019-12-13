@@ -16,5 +16,7 @@
    智能提示。
 *** ivy
     命令智能提示。
+*** evil
+    vi模拟器
 
 To Be Continued.

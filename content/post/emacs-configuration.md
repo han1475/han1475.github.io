@@ -1,7 +1,7 @@
 +++
 title = "emacs配置"
 date = 2019-11-09
-lastmod = 2019-11-13T23:44:04+08:00
+lastmod = 2019-12-13T23:14:25+08:00
 tags = ["emacs"]
 categories = ["emacs"]
 draft = false
@@ -32,5 +32,10 @@ draft = false
 ### ivy {#ivy}
 
 命令智能提示。
+
+
+### evil {#evil}
+
+vi模拟器
 
 To Be Continued.
