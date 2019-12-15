@@ -217,14 +217,14 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 
 
 &lt;h2&gt;1.成都-陈一发儿&lt;/h2&gt;
-&lt;audio controls autoplay loop  preload=&#34;none&#34; src=&#34;https://han1475.com/music/chengdu.mp3&#34;&gt;
+&lt;audio controls src=&#34;https://han1475.com/music/chengdu.mp3&#34;&gt;
     &lt;p&gt;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.&lt;/p&gt;
 &lt;/audio&gt;
 
 
 
 &lt;h2&gt;2.童话镇-陈一发儿&lt;/h2&gt;
-&lt;audio controls autoplay loop  preload=&#34;none&#34; src=&#34;https://han1475.com/music/tonghauzhen.mp3&#34;&gt;
+&lt;audio controls src=&#34;https://han1475.com/music/tonghauzhen.mp3&#34;&gt;
     &lt;p&gt;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.&lt;/p&gt;
 &lt;/audio&gt;
 
