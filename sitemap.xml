@@ -45,7 +45,7 @@
   
   <url>
     <loc>https://han1475.com/</loc>
-    <lastmod>2019-12-15T13:41:23+08:00</lastmod>
+    <lastmod>2019-12-15T13:44:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -136,20 +136,20 @@
   
   <url>
     <loc>https://han1475.com/about/</loc>
-    <lastmod>2019-12-15T13:41:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://han1475.com/categories/git/</loc>
-    <lastmod>2019-11-08T15:30:45+08:00</lastmod>
+    <lastmod>2019-12-15T13:44:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://han1475.com/tags/git/</loc>
+    <lastmod>2019-11-08T15:30:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/categories/git/</loc>
     <lastmod>2019-11-08T15:30:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
