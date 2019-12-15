@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>小蜗牛的大梦想</title>
@@ -210,6 +210,12 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 &lt;li&gt;&lt;strong&gt;谭雅战记&lt;/strong&gt; 反战番，总之吹谭雅就完事了。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;少女与战车&lt;/strong&gt; 男人最喜欢的两样占全了。&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;音乐&#34;&gt;音乐&lt;/h3&gt;
+
+&lt;p&gt;纯粹喜欢听的音乐
+{ {&amp;lt; music &amp;ldquo;/music/chengdu.mp3&amp;rdquo; &amp;ldquo;1.成都-陈一发儿&amp;rdquo; &amp;gt;} }
+{ {&amp;lt; music &amp;ldquo;/music/tonghauzhen.mp3&amp;rdquo; &amp;ldquo;2.童话镇-陈一发儿&amp;rdquo; &amp;gt;} }&lt;/p&gt;
 
 &lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;
 
