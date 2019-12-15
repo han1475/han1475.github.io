@@ -1,7 +1,7 @@
 +++
 title = "关于"
 date = 2019-11-08
-lastmod = 2019-12-15T13:51:24+08:00
+lastmod = 2019-12-15T14:19:18+08:00
 draft = false
 toc = false
 +++
@@ -53,9 +53,10 @@ toc = false
 
 纯粹喜欢听的音乐
 
-{{< custommusic "/music/chengdu.mp3" "1.成都-陈一发儿" >}}
-
-{{< custommusic "/music/tonghauzhen.mp3" "2.童话镇-陈一发儿" >}}
+1.  成都-陈一发儿
+    {{< custommusic "/music/chengdu.mp3" >}}
+2.  童话镇-陈一发儿
+    {{< custommusic "/music/tonghuazhen.mp3" >}}
 
 
 ## 关于本站 {#关于本站}
