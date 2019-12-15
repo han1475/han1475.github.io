@@ -39,6 +39,10 @@
     - *鲁邦三世* 柯南09TV特别篇发现的，最喜欢的角色是次元叔，最喜欢的是S4。
     - *谭雅战记* 反战番，总之吹谭雅就完事了。
     - *少女与战车* 男人最喜欢的两样占全了。
+*** 音乐
+    纯粹喜欢听的音乐
+    { {< music "/music/chengdu.mp3" "1.成都-陈一发儿" >} }
+    { {< music "/music/tonghauzhen.mp3" "2.童话镇-陈一发儿" >} }
 ** 关于本站
    - 本站所使用的主题是[[https://github.com/xianmin/hugo-theme-jane][hugo-theme-jane]]。
    - 本站是在Emacs下写作，通过[[https://github.com/kaushalmodi/ox-hugo][ox-hugo]]导出为Markdown,再由[[https://gohugo.io/][hugo]]编译为静态网站发布在github上的。
