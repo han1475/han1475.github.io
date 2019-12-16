@@ -31,6 +31,7 @@ jobs:
 
         
         echo 'Moving the content over'
+        rm -rf "${BUILD_DIR}/*"
         cp -r public/* "${BUILD_DIR}"
         cd "${BUILD_DIR}"
         if git diff --exit-code; then
