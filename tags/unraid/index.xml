@@ -21,16 +21,5 @@
 本文安装Unraid的平台配置是h61主板+G1610赛扬cpu&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>unraid折腾记（持续更新）</title>
-      <link>https://han1475.com/post/unraid/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/post/unraid/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。本文安装Unraid的平台配置是h61主板+G1610赛扬cpu。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
   </channel>
 </rss>

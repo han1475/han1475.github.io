@@ -202,42 +202,5 @@ git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#
       
     </item>
     
-    <item>
-      <title>unraid折腾记（持续更新）</title>
-      <link>https://han1475.com/post/unraid/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/post/unraid/</guid>
-      
-        <description>&lt;blockquote&gt;
-&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。本文安装Unraid的平台配置是h61主板+G1610赛扬cpu。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;准备安装&#34;&gt;准备安装&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;准备好一个1G或者更大的U盘，不使用&lt;/li&gt;
-&lt;li&gt;按照官网指引，可以采取两种方式，第一种是直接使用官方提供的u盘启动盘创建工具创建启动盘，但由于访问amazon服务器太慢，本次没有涉及。&lt;/li&gt;
-&lt;li&gt;第二种方式直接从&lt;a href=&#34;https://unraid.net/download&#34;&gt;官网下载地址&lt;/a&gt;下载固件，手动创建启动盘。&lt;/li&gt;
-&lt;li&gt;经过实际尝试，官方教程无法启动，推荐使用&lt;a href=&#34;http://unetbootin.github.io/&#34;&gt;UNetbootin&lt;/a&gt;工具
-
-&lt;ul&gt;
-&lt;li&gt;此方法需要u盘容量不超过32G&lt;/li&gt;
-&lt;li&gt;将U盘格式化为 fat32 格式，将官网下载的zip文件修改为iso文件（windows下直接修改扩展名就可以）&lt;/li&gt;
-&lt;li&gt;运行UNetbootin工具，选择上一步修改的iso文件，等待写入完成即可。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;出现无法获取ip的问题，设置U盘config/network.cfg文件中的IPADDR(IP地址)，NETMASK（子网掩码），GATEWAY(网关)后解决。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;设置&#34;&gt;设置&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。&lt;/p&gt;</description>
-      
-    </item>
-    
   </channel>
 </rss>
