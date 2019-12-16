@@ -6,7 +6,7 @@
     <description>Recent content in emacs on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 23:34:00 +0800</lastBuildDate>
     
 	<atom:link href="https://han1475.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>emacs配置</title>
       <link>https://han1475.com/post/emacs-configuration/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/emacs-configuration/</guid>
       <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;</description>

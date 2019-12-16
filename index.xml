@@ -6,37 +6,54 @@
     <description>Recent content on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 23:34:00 +0800</lastBuildDate>
     
         <atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>（原文转载自SnapRAID官网）常见非标准RAID解决方案对比</title>
-      <link>https://han1475.com/post/not-standard-raid-solutions-compare/</link>
-      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <title>emacs配置</title>
+      <link>https://han1475.com/post/emacs-configuration/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
-      <guid>https://han1475.com/post/not-standard-raid-solutions-compare/</guid>
+      <guid>https://han1475.com/post/emacs-configuration/</guid>
       
-        <description>&lt;blockquote&gt;
-&lt;p&gt;本文原文转载自SnapRAID官网,重新排版仅作备份。&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;
 
-&lt;p&gt;To Be Continued.
-&lt;a href=&#34;http://www.snapraid.it/compare&#34;&gt;原文地址&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;涉及工具&#34;&gt;涉及工具&lt;/h2&gt;
+
+&lt;h2 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;org&lt;/code&gt; 转换 &lt;code&gt;Markdown&lt;/code&gt; 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。&lt;/p&gt;
+
+&lt;h2 id=&#34;yasnippet&#34;&gt;yasnippet&lt;/h2&gt;
+
+&lt;p&gt;输入模板，减少重复输入。&lt;/p&gt;
+
+&lt;h2 id=&#34;company&#34;&gt;company&lt;/h2&gt;
+
+&lt;p&gt;智能提示。&lt;/p&gt;
+
+&lt;h2 id=&#34;ivy&#34;&gt;ivy&lt;/h2&gt;
+
+&lt;p&gt;命令智能提示。&lt;/p&gt;
+
+&lt;h2 id=&#34;evil&#34;&gt;evil&lt;/h2&gt;
+
+&lt;p&gt;vi模拟器&lt;/p&gt;
+
+&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>Github Actions的使用</title>
+      <title>Github Actions使用</title>
       <link>https://han1475.com/post/github-actions/</link>
-      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/github-actions/</guid>
       
-        <description>&lt;blockquote&gt;
-&lt;p&gt;Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>&lt;p&gt;Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。&lt;/p&gt;
 
 &lt;h2 id=&#34;一-github-actions是什么&#34;&gt;一、GitHub Actions是什么&lt;/h2&gt;
 
@@ -82,6 +99,110 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
     </item>
     
     <item>
+      <title>git子模块</title>
+      <link>https://han1475.com/post/git-submodule/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/git-submodule/</guid>
+      
+        <description>&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
+它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;
+
+&lt;h2 id=&#34;添加子模块&#34;&gt;添加子模块&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule add MOD_REPO YOUR_PATH&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。&lt;/p&gt;
+
+&lt;h2 id=&#34;使用包含子模块的项目-可以采取下列两种方式&#34;&gt;使用包含子模块的项目,可以采取下列两种方式。&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;克隆后再初始化并更新子模块&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone MAIN_REPO
+git submodule init
+git submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在克隆时增加额外参数&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone MAIN_REPO --recursive&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;删除子模块&#34;&gt;删除子模块&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule deinit &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+git rm --cached &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;修改某个模块的url属性&#34;&gt;修改某个模块的URL属性&lt;/h2&gt;
+
+&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>unraid的使用</title>
+      <link>https://han1475.com/post/unraid/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/unraid/</guid>
+      
+        <description>&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。
+本文安装Unraid的平台配置是h61主板+G1610赛扬cpu&lt;/p&gt;
+
+&lt;h2 id=&#34;准备安装&#34;&gt;准备安装&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;准备好一个1G或者更大的U盘，不使用&lt;/li&gt;
+&lt;li&gt;按照官网指引，可以采取两种方式，第一种是直接使用官方提供的u盘启动盘创建工具创建启动盘，但由于访问amazon服务器太慢，本次没有涉及。&lt;/li&gt;
+&lt;li&gt;第二种方式直接从&lt;a href=&#34;https://unraid.net/download&#34;&gt;官网下载地址&lt;/a&gt;下载固件，手动创建启动盘。&lt;/li&gt;
+&lt;li&gt;经过实际尝试，官方教程无法启动，推荐使用&lt;a href=&#34;http://unetbootin.github.io/&#34;&gt;UNetbootin&lt;/a&gt;工具
+
+&lt;ul&gt;
+&lt;li&gt;此方法需要u盘容量不超过32G&lt;/li&gt;
+&lt;li&gt;将U盘格式化为 fat32 格式，将官网下载的zip文件修改为iso文件（windows下直接修改扩展名就可以）&lt;/li&gt;
+&lt;li&gt;运行UNetbootin工具，选择上一步修改的iso文件，等待写入完成即可。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;出现无法获取ip的问题，设置U盘config/network.cfg文件中的IPADDR(IP地址)，NETMASK（子网掩码），GATEWAY(网关)后解决。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;设置&#34;&gt;设置&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>unraid折腾记（持续更新）</title>
       <link>https://han1475.com/post/unraid/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
@@ -115,245 +236,6 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 &lt;/ol&gt;
 
 &lt;p&gt;由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>emacs配置</title>
-      <link>https://han1475.com/post/emacs-configuration/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/post/emacs-configuration/</guid>
-      
-        <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;
-
-&lt;h2 id=&#34;涉及工具&#34;&gt;涉及工具&lt;/h2&gt;
-
-&lt;h3 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;org&lt;/code&gt; 转换 &lt;code&gt;Markdown&lt;/code&gt; 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。&lt;/p&gt;
-
-&lt;h3 id=&#34;yasnippet&#34;&gt;yasnippet&lt;/h3&gt;
-
-&lt;p&gt;输入模板，减少重复输入。&lt;/p&gt;
-
-&lt;h3 id=&#34;company&#34;&gt;company&lt;/h3&gt;
-
-&lt;p&gt;智能提示。&lt;/p&gt;
-
-&lt;h3 id=&#34;ivy&#34;&gt;ivy&lt;/h3&gt;
-
-&lt;p&gt;命令智能提示。&lt;/p&gt;
-
-&lt;h3 id=&#34;evil&#34;&gt;evil&lt;/h3&gt;
-
-&lt;p&gt;vi模拟器&lt;/p&gt;
-
-&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>https://han1475.com/about/</link>
-      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/about/</guid>
-      
-        <description>
-
-&lt;p&gt;我叫韩晓君，欢迎来到我的个人站点。&lt;/p&gt;
-
-&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;
-
-&lt;h3 id=&#34;程序猿&#34;&gt;程序猿&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;爱好很多，喜欢尝试新事物，又偏爱老物件。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;惯用操作系统&lt;/strong&gt; —— &lt;strong&gt;Arch Linux&lt;/strong&gt; ，喜欢尝试新的特性，又受够了Gentoo的编译地狱。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;常用快捷键设置&lt;/strong&gt; —— &lt;strong&gt;vi&lt;/strong&gt; ，Chrome，Emacs，VSCode，Idea都安装了vi键位插件，万物皆vi。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;日常编辑器&lt;/strong&gt; —— &lt;strong&gt;Emacs&lt;/strong&gt; ，用于写博客以及其他日常文本编辑。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;代码编辑器&lt;/strong&gt; —— &lt;strong&gt;VSCode&lt;/strong&gt; ，尤其推出 &lt;code&gt;Remote-SSH插件&lt;/code&gt; 之后，方便window下访问Linux虚拟机。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;编程语言&lt;/strong&gt; —— 都会，但是不够深入 &lt;code&gt;HTML/CSS/JS=，=Java=，=c/c++/c#&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;技术宅&#34;&gt;技术宅&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;喜欢折腾硬件设备&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;单片机&lt;/strong&gt; 尝试过51，接下来试试Micro Bit和Arduino。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;树莓派&lt;/strong&gt; 很好但是太贵，可以尝试国产方案。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;图吧垃圾佬&#34;&gt;图吧垃圾佬&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;斐讯N1&lt;/strong&gt; 替代3代树莓派用作nas、电视盒子等，斐讯倒闭后二手平台很火，90不到的价格。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;斐讯K3&lt;/strong&gt; 二手300元就能拿下的高性能路由器，芯片是华硕RT-AC88U这种1300的路由器。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;E3神教&lt;/strong&gt; 台式机是E3 1231v3，技嘉B85主板的垃圾佬标配&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Y510p&lt;/strong&gt;  原来的笔记本thinkpad e431配置太烂，19年年初咸鱼2400换的y510p 4700mq，正在考虑外接显卡方案。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;动漫宅&#34;&gt;动漫宅&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;童年回忆&lt;/strong&gt; 柯南、犬夜叉、龙珠、网球王子、百变小樱、中华小当家，某种意义上还挺喜欢少女漫。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fate系列&lt;/strong&gt; 吾王万岁，老虎赛高。目前也就看了卫宫家的饭，幻想嘉年华和fate/stay night 06版，士剑厨无疑。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OVERLORD&lt;/strong&gt; 特别喜欢与空气斗智斗勇的骨头。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;鲁邦三世&lt;/strong&gt; 柯南09TV特别篇发现的，最喜欢的角色是次元叔，最喜欢的是S4。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;谭雅战记&lt;/strong&gt; 反战番，总之吹谭雅就完事了。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;少女与战车&lt;/strong&gt; 男人最喜欢的两样占全了。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;音乐&#34;&gt;音乐&lt;/h3&gt;
-
-&lt;p&gt;纯粹喜欢听的音乐&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;成都-陈一发儿
-
-&lt;br&gt;
-&lt;audio controls src=&#34;https://han1475.com/music/chengdu.mp3&#34;&gt;
-    &lt;p&gt;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.&lt;/p&gt;
-&lt;/audio&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;li&gt;童话镇-陈一发儿
-
-&lt;br&gt;
-&lt;audio controls src=&#34;https://han1475.com/music/tonghuazhen.mp3&#34;&gt;
-    &lt;p&gt;Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.&lt;/p&gt;
-&lt;/audio&gt;
-&lt;br&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;本站所使用的主题是&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;hugo-theme-jane&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;本站是在Emacs下写作，通过&lt;a href=&#34;https://github.com/kaushalmodi/ox-hugo&#34;&gt;ox-hugo&lt;/a&gt;导出为Markdown,再由&lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;编译为静态网站发布在github上的。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>git常用命令</title>
-      <link>https://han1475.com/post/git/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://han1475.com/post/git/</guid>
-      
-        <description>&lt;p&gt;本人经常使用git进行版本控制，因此总结常用命令就有了本文。&lt;/p&gt;
-
-&lt;h2 id=&#34;子模块&#34;&gt;子模块&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;添加子模块&#34;&gt;添加子模块&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule add MOD_REPO YOUR_PATH&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。&lt;/p&gt;
-
-&lt;h3 id=&#34;使用包含子模块的项目-可以采取下列两种方式&#34;&gt;使用包含子模块的项目,可以采取下列两种方式。&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;克隆后再初始化并更新子模块&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone MAIN_REPO
-git submodule init
-git submodule update&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;在克隆时增加额外参数&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone MAIN_REPO --recursive&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;删除子模块&#34;&gt;删除子模块&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule deinit &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-git rm --cached &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;修改某个模块的url属性&#34;&gt;修改某个模块的URL属性&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;修改.gitmodule文件中对应模块的url属性&lt;/li&gt;
-&lt;li&gt;运行git submodule sync 命令，将新的url更新到文件.git/config&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;提交修改&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update submodule url.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;合并仓库并保留提交记录&#34;&gt;合并仓库并保留提交记录&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;将repo1合并到repo2中，并保留repo1的commit记录。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;在repo2中依次运行下列命令&#34;&gt;在repo2中依次运行下列命令&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git remote add other /your/path/to/repo1
-git fetch other
-git checkout -b repo1 other/master
-git checkout master
-git merge repo1 --allow-unrelated-histories&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;常见错误&#34;&gt;常见错误：&lt;/h3&gt;
-
-&lt;p&gt;为解决合并仓库时出现的fatal: refusing to merge unrelated histories错误，我们这里使用了&amp;ndash;allow-unrelated-histories选项。&lt;/p&gt;</description>
       
     </item>
     
