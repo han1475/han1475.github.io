@@ -1,9 +1,8 @@
 +++
 title = "emacs配置"
-date = 2019-11-09
-lastmod = 2019-12-13T23:14:25+08:00
+date = 2019-12-16T23:34:00+08:00
 tags = ["emacs"]
-categories = ["emacs"]
+categories = ["计算机"]
 draft = false
 +++
 
@@ -14,27 +13,27 @@ draft = false
 ## 涉及工具 {#涉及工具}
 
 
-### ox-hugo {#ox-hugo}
+## ox-hugo {#ox-hugo}
 
 `org` 转换 `Markdown` 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。
 
 
-### yasnippet {#yasnippet}
+## yasnippet {#yasnippet}
 
 输入模板，减少重复输入。
 
 
-### company {#company}
+## company {#company}
 
 智能提示。
 
 
-### ivy {#ivy}
+## ivy {#ivy}
 
 命令智能提示。
 
 
-### evil {#evil}
+## evil {#evil}
 
 vi模拟器
 

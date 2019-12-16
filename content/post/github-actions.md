@@ -1,13 +1,12 @@
 +++
-title = "Github Actions的使用"
-date = 2019-11-17
-lastmod = 2019-11-21T21:58:44+08:00
-tags = ["github"]
-categories = ["笔记"]
+title = "Github Actions使用"
+date = 2019-12-16T23:34:00+08:00
+tags = ["github", "actions"]
+categories = ["计算机"]
 draft = false
 +++
 
-> Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
+Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
 
 <!--more-->
 

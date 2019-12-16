@@ -1,0 +1,123 @@
+#+HUGO_BASE_DIR: ../
+#+SEQ_TODO: TODO DONE
+#+PROPERTY: header-args :eval no
+#+OPTIONS: author:nil
+
+* index :@计算机:
+** DONE emacs配置                                                     :emacs:
+   CLOSED: [2019-12-16 Mon 23:34]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: emacs-configuration
+   :END:
+本人的 *Emacs* 配置，持续更新
+<!--more-->
+*** 涉及工具
+*** ox-hugo
+   =org= 转换 =Markdown= 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。
+*** yasnippet
+   输入模板，减少重复输入。
+*** company
+   智能提示。
+*** ivy
+    命令智能提示。
+*** evil
+    vi模拟器
+
+To Be Continued.
+
+** DONE git子模块                                             :git:submodule:
+   CLOSED: [2019-12-16 Mon 23:34]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: git-submodule
+   :END:
+Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。 
+它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。
+
+<!--more-->
+
+*** 添加子模块 
+      #+BEGIN_SRC sh
+        git submodule add MOD_REPO YOUR_PATH
+      #+END_SRC
+    上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
+*** 使用包含子模块的项目,可以采取下列两种方式。
+    1. 克隆后再初始化并更新子模块    
+      #+BEGIN_SRC sh
+        git clone MAIN_REPO
+        git submodule init
+        git submodule update
+      #+END_SRC
+    2. 在克隆时增加额外参数
+      #+BEGIN_SRC sh
+        git clone MAIN_REPO --recursive
+      #+END_SRC
+*** 删除子模块
+      #+BEGIN_SRC sh
+        git submodule deinit {MOD_NAME} 
+        git rm --cached {MOD_NAME} 
+        git commit -am "Remove a submodule." 
+      #+END_SRC
+*** 修改某个模块的URL属性
+
+To Be Continued.
+
+** DONE Github Actions使用                                   :github:actions:
+   CLOSED: [2019-12-16 Mon 23:34]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: github-actions
+   :END:
+Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。
+
+<!--more-->
+
+*** 一、GitHub Actions是什么
+   持续集成包括很多操作，比如运行测试，构建版本等，GitHub把这些操作称之为Actions。
+*** 二、为什么选择GitHub Actions
+   1. Github Actions采取了类似npm包的处理方式，允许直接引用其他人写好的Action脚本文件。
+   2. Github在市场中提供了Action的搜索功能，方便自行搜索，搜索时只需要在类型（Type）中选择Actions即可。
+   3. Github Actions 配置直接存储于代码仓库的 =.github/workflows= 目录下，避免配置分离难以维护。
+*** 三、关于GitHub Actions引用他人脚本
+   1. 采用 =username/reponame= 的方式引用。
+      - 如 =actions/setup-node= 就是指引用 =github.com/actions/setup-node= 这个代码仓库.
+      - 事实上Github官方的Actions都存储在 =github.com/actions= 这个用户名的代码仓库中。
+   2. Github Actions采用代码仓库的方式存储，因此你可以引用特定版本，下列都是正确的引用。
+      #+BEGIN_SRC
+        actions/setup-node@9a99bb3 # 指向一个 commit
+        actions/setup-node@v1.2.0  # 指向一个标签
+        actions/setup-node@master  # 指向一个分支
+      #+END_SRC
+*** 四、基本概念
+
+To Be Continued.
+
+** DONE unraid的使用                                            :unraid:raid:
+   CLOSED: [2019-12-16 Mon 23:34]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: unraid
+   :END:
+Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。
+本文安装Unraid的平台配置是h61主板+G1610赛扬cpu
+
+<!--more-->
+
+*** 准备安装
+    1. 准备好一个1G或者更大的U盘，不使用
+    2. 按照官网指引，可以采取两种方式，第一种是直接使用官方提供的u盘启动盘创建工具创建启动盘，但由于访问amazon服务器太慢，本次没有涉及。
+    3. 第二种方式直接从[[https://unraid.net/download][官网下载地址]]下载固件，手动创建启动盘。
+    4. 经过实际尝试，官方教程无法启动，推荐使用[[http://unetbootin.github.io/][UNetbootin]]工具
+       - 此方法需要u盘容量不超过32G
+       - 将U盘格式化为 fat32 格式，将官网下载的zip文件修改为iso文件（windows下直接修改扩展名就可以）
+       - 运行UNetbootin工具，选择上一步修改的iso文件，等待写入完成即可。
+    5. 出现无法获取ip的问题，设置U盘config/network.cfg文件中的IPADDR(IP地址)，NETMASK（子网掩码），GATEWAY(网关)后解决。
+*** 设置
+   1. 在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。
+
+由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。
+
+** TODO 常见非标准raid解决方案对比                                        :raid:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: not-standard-raid-solution-compare 
+   :END:
+<!--more-->
+TO Be Continued.
+[[http://www.snapraid.it/compare][原文地址]]
