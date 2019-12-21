@@ -23,7 +23,7 @@
 &lt;h2 id=&#34;两地三中心&#34;&gt;两地三中心&lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;两地三中心：“两地三中心”即生产数据中心、同城灾备中心、异地灾备中心建设方案。
+&lt;p&gt;两地三中心：即生产数据中心、同城灾备中心、异地灾备中心建设方案。
 两个城市的三个数据中心互联互通，如果一个数据中心发生故障或灾难，其他数据中心可以正常运行并对关键业务或全部业务实现接管。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -37,14 +37,16 @@
 
 &lt;h2 id=&#34;个人思考&#34;&gt;个人思考&lt;/h2&gt;
 
-&lt;h3 id=&#34;数据一定要做好备份&#34;&gt;数据一定要做好备份&lt;/h3&gt;
+&lt;h3 id=&#34;亲身的教训&#34;&gt;亲身的教训：&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;本人亲身的教训：
-初中数据丢过一次，内存卡损坏，同学数据全丢了。大学硬盘不慎损坏，高中阶段全部信息学奥赛等资料全丢，都是精心整理的心血。&lt;/li&gt;
-&lt;li&gt;根据上述原则目前的备份方案：
-印象笔记、个人网站（github）、电脑、移动硬盘各自保存一份。&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;li&gt;初中数据丢过一次，内存卡损坏，同学数据全丢了。&lt;/li&gt;
+&lt;li&gt;上大学时硬盘不慎损坏，高中阶段全部信息学奥赛等资料全丢，都是精心整理的心血。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;目前的备份方案&#34;&gt;目前的备份方案：&lt;/h3&gt;
+
+&lt;p&gt;印象笔记、个人网站（github）、电脑、移动硬盘各自保存一份，四地三中心和同城双活全都做到了，:)。&lt;/p&gt;</description>
       
     </item>
     
@@ -59,21 +61,28 @@
 
 &lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
 
+&lt;h3 id=&#34;生态&#34;&gt;生态&lt;/h3&gt;
+
 &lt;ol&gt;
-&lt;li&gt;生态
-技术选型时首先要考虑的就是生态。没有成熟的社区、健全的文档、广泛的使用人群，那这项技术在选型时就要慎之又慎。前人踩坑并且有大量的相关从业人员
-才是更好的选择。落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
-&lt;li&gt;不要滥用特性
-为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/li&gt;
+&lt;li&gt;技术选型时一定要考虑生态。 成熟的社区、健全的文档、广泛的使用人群踩坑，并且有大量的相关人员。&lt;/li&gt;
+&lt;li&gt;落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h3 id=&#34;不要滥用特性&#34;&gt;不要滥用特性&lt;/h3&gt;
+
+&lt;p&gt;为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/p&gt;
 
 &lt;h2 id=&#34;问题解决&#34;&gt;问题解决&lt;/h2&gt;
 
+&lt;h3 id=&#34;官方支持&#34;&gt;官方支持&lt;/h3&gt;
+
+&lt;p&gt;第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/p&gt;
+
+&lt;h3 id=&#34;善用搜索引擎&#34;&gt;善用搜索引擎：&lt;/h3&gt;
+
 &lt;ol&gt;
-&lt;li&gt;官方
-第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/li&gt;
-&lt;li&gt;善用搜索引擎
-对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里一定可以解决&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；&lt;/li&gt;
+&lt;li&gt;普通人来说假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里解决你的问题&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
       
     </item>
