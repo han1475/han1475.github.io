@@ -6,10 +6,117 @@
     <description>Recent content on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Dec 2019 23:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 23:53:00 +0800</lastBuildDate>
     
         <atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>备份要两地三中心:)</title>
+      <link>https://han1475.com/post/backup/</link>
+      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/backup/</guid>
+      
+        <description>&lt;p&gt;数据备份在当前这个信息爆炸的时代尤为重要，本人自己的一点思考。&lt;/p&gt;
+
+&lt;h2 id=&#34;两地三中心&#34;&gt;两地三中心&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;两地三中心：“两地三中心”即生产数据中心、同城灾备中心、异地灾备中心建设方案。
+两个城市的三个数据中心互联互通，如果一个数据中心发生故障或灾难，其他数据中心可以正常运行并对关键业务或全部业务实现接管。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;同城双活数据中心&#34;&gt;同城双活数据中心&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;同城双活数据中心：同个城市部署两个数据中心，
+双活：一是多中心之间地位均等，正常模式下协同工作，并行为业务访问提供服务，实现资源的充分利用，避免一个或两个备份中心处于闲置状态，造成资源与投资浪费；
+二是在一个数据中心发生故障或灾难的情况下，其他数据中心可以正常运行并对关键业务或全部业务实现接管，实现用户的“故障无感知”。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;个人思考&#34;&gt;个人思考&lt;/h2&gt;
+
+&lt;h3 id=&#34;数据一定要做好备份&#34;&gt;数据一定要做好备份&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;本人亲身的教训：
+初中数据丢过一次，内存卡损坏，同学数据全丢了。大学硬盘不慎损坏，高中阶段全部信息学奥赛等资料全丢，都是精心整理的心血。&lt;/li&gt;
+&lt;li&gt;根据上述原则目前的备份方案：
+印象笔记、个人网站（github）、电脑、移动硬盘各自保存一份。&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>技术选型与问题解决</title>
+      <link>https://han1475.com/post/choose-and-solve/</link>
+      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/choose-and-solve/</guid>
+      
+        <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;
+
+&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;生态
+技术选型时首先要考虑的就是生态。没有成熟的社区、健全的文档、广泛的使用人群，那这项技术在选型时就要慎之又慎。前人踩坑并且有大量的相关从业人员
+才是更好的选择。落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
+&lt;li&gt;不要滥用特性
+为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;问题解决&#34;&gt;问题解决&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;官方
+第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/li&gt;
+&lt;li&gt;善用搜索引擎
+对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里一定可以解决&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>利益</title>
+      <link>https://han1475.com/post/interest/</link>
+      <pubDate>Sat, 21 Dec 2019 23:52:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/interest/</guid>
+      
+        <description>&lt;p&gt;天下攘攘，皆为利往。天下熙熙，皆为利来。&lt;/p&gt;
+
+&lt;h2 id=&#34;钓鱼&#34;&gt;钓鱼&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;本意是指垂钓这项活动，因其愿者上钩引申出隐蔽身份，采取手段引诱别人做出特定行为的意思。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;以知乎为例，现阶段大量匿名用户发布明显错误或歧义、容易引起争论的问题。实则是官方故意发布来引诱用户参与，从而制造热度，引起流量。&lt;/li&gt;
+&lt;li&gt;社交平台上哗众取宠、故意反串，也是为了人为制作噱头、引起流量。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;流量&#34;&gt;流量&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“流量”本义是单位时间内通过河、渠或管道某一横截面的流体的量，或是通过道路的车辆、人员等的数量。在互联网时代，“流量”也指在一定时间内网站的访问量，
+引申义是用来形容那些粉丝多、人气高、影响广、商业价值大的事物。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;为了流量不择手段：上述钓鱼行为皆是用来增加流量的手段。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;怎么办&#34;&gt;怎么办&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;不需要争论的问题不看不评。&lt;/li&gt;
+&lt;li&gt;将流量因素考虑在内看待问题。&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+    </item>
     
     <item>
       <title>emacs配置</title>
