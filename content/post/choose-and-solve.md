@@ -35,4 +35,4 @@ draft = false
 ### 善用搜索引擎： {#善用搜索引擎}
 
 1.  对程序员来说就是面向 `stackoverflow` 编程 (**^\_^**)；
-2.  普通人来说假设你可以访问谷歌，[点这里解决你的问题](https://zh.lmgtfy.com/?q=your+question&pp=1)
+2.  普通人来说，假设你可以访问谷歌，[点这里解决你的问题](https://zh.lmgtfy.com/?q=your+question&pp=1)
