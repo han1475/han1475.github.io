@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>https://han1475.com/post/backup/</loc>
-    <lastmod>2019-12-21T23:53:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://han1475.com/</loc>
     <lastmod>2019-12-21T23:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,6 +45,13 @@
   
   <url>
     <loc>https://han1475.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</loc>
+    <lastmod>2019-12-21T23:53:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://han1475.com/post/backup/</loc>
     <lastmod>2019-12-21T23:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

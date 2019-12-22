@@ -12,7 +12,44 @@
     
     
     <item>
-      <title>备份要两地三中心:)</title>
+      <title>技术选型与问题解决</title>
+      <link>https://han1475.com/post/choose-and-solve/</link>
+      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/choose-and-solve/</guid>
+      
+        <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;
+
+&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
+
+&lt;h3 id=&#34;生态&#34;&gt;生态&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;技术选型时一定要考虑生态。 成熟的社区、健全的文档、广泛的使用人群踩坑，并且有大量的相关人员。&lt;/li&gt;
+&lt;li&gt;落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;不要滥用特性&#34;&gt;不要滥用特性&lt;/h3&gt;
+
+&lt;p&gt;为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/p&gt;
+
+&lt;h2 id=&#34;问题解决&#34;&gt;问题解决&lt;/h2&gt;
+
+&lt;h3 id=&#34;官方支持&#34;&gt;官方支持&lt;/h3&gt;
+
+&lt;p&gt;第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/p&gt;
+
+&lt;h3 id=&#34;善用搜索引擎&#34;&gt;善用搜索引擎：&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；&lt;/li&gt;
+&lt;li&gt;普通人来说，假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里解决你的问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>数据备份要两地三中心</title>
       <link>https://han1475.com/post/backup/</link>
       <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
       
@@ -47,43 +84,6 @@
 &lt;h3 id=&#34;目前的备份方案&#34;&gt;目前的备份方案：&lt;/h3&gt;
 
 &lt;p&gt;印象笔记、个人网站（github）、电脑、移动硬盘各自保存一份，四地三中心和同城双活全都做到了，:)。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>技术选型与问题解决</title>
-      <link>https://han1475.com/post/choose-and-solve/</link>
-      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
-      
-      <guid>https://han1475.com/post/choose-and-solve/</guid>
-      
-        <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;
-
-&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
-
-&lt;h3 id=&#34;生态&#34;&gt;生态&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;技术选型时一定要考虑生态。 成熟的社区、健全的文档、广泛的使用人群踩坑，并且有大量的相关人员。&lt;/li&gt;
-&lt;li&gt;落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;不要滥用特性&#34;&gt;不要滥用特性&lt;/h3&gt;
-
-&lt;p&gt;为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/p&gt;
-
-&lt;h2 id=&#34;问题解决&#34;&gt;问题解决&lt;/h2&gt;
-
-&lt;h3 id=&#34;官方支持&#34;&gt;官方支持&lt;/h3&gt;
-
-&lt;p&gt;第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/p&gt;
-
-&lt;h3 id=&#34;善用搜索引擎&#34;&gt;善用搜索引擎：&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；&lt;/li&gt;
-&lt;li&gt;普通人来说假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里解决你的问题&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
       
     </item>
     
