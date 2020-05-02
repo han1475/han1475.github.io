@@ -15,7 +15,7 @@ Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git �
 ## 添加子模块 {#添加子模块}
 
 ```sh
-git submodule add MOD_REPO YOUR_PATH
+git submodule add {MOD_REPO} {YOUR_PATH}
 ```
 
 上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
@@ -26,14 +26,14 @@ git submodule add MOD_REPO YOUR_PATH
 1.  克隆后再初始化并更新子模块
 
     ```sh
-    git clone MAIN_REPO
+    git clone {MAIN_REPO}
     git submodule init
     git submodule update
     ```
 2.  在克隆时增加额外参数
 
     ```sh
-    git clone MAIN_REPO --recursive
+    git clone --recursive {MAIN_REPO}
     ```
 
 

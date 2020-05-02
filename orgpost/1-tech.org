@@ -30,32 +30,32 @@ To Be Continued.
    :PROPERTIES:
    :EXPORT_FILE_NAME: git-submodule
    :END:
-Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。 
+Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
 它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。
 
 <!--more-->
 
-*** 添加子模块 
+*** 添加子模块
       #+BEGIN_SRC sh
-        git submodule add MOD_REPO YOUR_PATH
+        git submodule add {MOD_REPO} {YOUR_PATH}
       #+END_SRC
     上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
 *** 使用包含子模块的项目,可以采取下列两种方式。
-    1. 克隆后再初始化并更新子模块    
+    1. 克隆后再初始化并更新子模块
       #+BEGIN_SRC sh
-        git clone MAIN_REPO
+        git clone {MAIN_REPO}
         git submodule init
         git submodule update
       #+END_SRC
     2. 在克隆时增加额外参数
       #+BEGIN_SRC sh
-        git clone MAIN_REPO --recursive
+        git clone --recursive {MAIN_REPO} 
       #+END_SRC
 *** 删除子模块
       #+BEGIN_SRC sh
-        git submodule deinit {MOD_NAME} 
-        git rm --cached {MOD_NAME} 
-        git commit -am "Remove a submodule." 
+        git submodule deinit {MOD_NAME}
+        git rm --cached {MOD_NAME}
+        git commit -am "Remove a submodule."
       #+END_SRC
 *** 修改某个模块的URL属性
 
@@ -116,7 +116,7 @@ Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic
 
 ** TODO 常见非标准raid解决方案对比                                        :raid:
    :PROPERTIES:
-   :EXPORT_FILE_NAME: not-standard-raid-solution-compare 
+   :EXPORT_FILE_NAME: not-standard-raid-solution-compare
    :END:
 <!--more-->
 TO Be Continued.
