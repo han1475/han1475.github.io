@@ -427,7 +427,7 @@
 <pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">git submodule add MOD_REPO YOUR_PATH</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git submodule add <span class="o">{</span>MOD_REPO<span class="o">}</span> <span class="o">{</span>YOUR_PATH<span class="o">}</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。</p>
@@ -443,7 +443,7 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">git clone MAIN_REPO
+<pre class="chroma"><code class="language-sh" data-lang="sh">git clone <span class="o">{</span>MAIN_REPO<span class="o">}</span>
 git submodule init
 git submodule update</code></pre></td></tr></table>
 </div>
@@ -455,7 +455,7 @@ git submodule update</code></pre></td></tr></table>
 <pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">git clone MAIN_REPO --recursive</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sh" data-lang="sh">git clone --recursive <span class="o">{</span>MAIN_REPO<span class="o">}</span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ol>
@@ -620,7 +620,7 @@ git commit -am <span class="s2">&#34;Remove a submodule.&#34;</span></code></pre
     &copy;
     
       2017 -
-    2019
+    2020
     <span class="heart">
       
       <i class="iconfont">
