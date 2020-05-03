@@ -1,6 +1,7 @@
 +++
 title = "emacs配置"
 date = 2019-12-16T23:34:00+08:00
+lastmod = 2020-05-03T21:17:40+08:00
 tags = ["emacs"]
 categories = ["计算机"]
 draft = false
@@ -36,5 +37,10 @@ draft = false
 ## evil {#evil}
 
 vi模拟器
+
+
+## hydra {#hydra}
+
+前缀快捷键设置
 
 To Be Continued.

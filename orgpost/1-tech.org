@@ -1,4 +1,6 @@
 #+HUGO_BASE_DIR: ../
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_DRAFT: false
 #+SEQ_TODO: TODO DONE
 #+PROPERTY: header-args :eval no
 #+OPTIONS: author:nil
@@ -22,6 +24,8 @@
     命令智能提示。
 *** evil
     vi模拟器
+*** hydra
+    前缀快捷键设置
 
 To Be Continued.
 
@@ -49,7 +53,7 @@ Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git �
       #+END_SRC
     2. 在克隆时增加额外参数
       #+BEGIN_SRC sh
-        git clone --recursive {MAIN_REPO} 
+        git clone --recursive {MAIN_REPO}
       #+END_SRC
 *** 删除子模块
       #+BEGIN_SRC sh
