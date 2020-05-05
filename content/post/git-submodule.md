@@ -1,6 +1,7 @@
 +++
 title = "git子模块"
 date = 2019-12-16T23:34:00+08:00
+lastmod = 2020-05-05T22:08:32+08:00
 tags = ["git", "submodule"]
 categories = ["计算机"]
 draft = false
@@ -23,18 +24,22 @@ git submodule add {MOD_REPO} {YOUR_PATH}
 
 ## 使用包含子模块的项目,可以采取下列两种方式。 {#使用包含子模块的项目-可以采取下列两种方式}
 
-1.  克隆后再初始化并更新子模块
+-   克隆后再初始化并更新子模块
 
-    ```sh
-    git clone {MAIN_REPO}
-    git submodule init
-    git submodule update
-    ```
-2.  在克隆时增加额外参数
+<!--listend-->
 
-    ```sh
-    git clone --recursive {MAIN_REPO}
-    ```
+```sh
+git clone {MAIN_REPO}
+git submodule update --init --recursive
+```
+
+-   在克隆时增加额外参数
+
+<!--listend-->
+
+```sh
+git clone --recursive {MAIN_REPO}
+```
 
 
 ## 删除子模块 {#删除子模块}
