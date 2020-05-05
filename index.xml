@@ -242,7 +242,7 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 &lt;h2 id=&#34;克隆包含子模块的项目&#34;&gt;克隆包含子模块的项目&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;如果克隆主库的时候要初始化子模块,使用 `&amp;ndash;recursive`,如：&lt;/li&gt;
+&lt;li&gt;如果克隆主库的时候要初始化子模块,使用 &lt;code&gt;--recursive&lt;/code&gt;,如：&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--listend--&gt;
@@ -268,7 +268,7 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用`&amp;ndash;remote`,如：&lt;/li&gt;
+&lt;li&gt;如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用 &lt;code&gt;--remote&lt;/code&gt;,如：&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--listend--&gt;
