@@ -48,7 +48,7 @@ Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git �
 
 *** 克隆包含子模块的项目
 
-- 如果克隆主库的时候要初始化子模块,使用 `--recursive`,如：
+- 如果克隆主库的时候要初始化子模块,使用 =--recursive=,如：
 #+BEGIN_SRC sh
 git clone --recursive {MAIN_REPO}
 #+END_SRC
@@ -59,7 +59,7 @@ git clone --recursive {MAIN_REPO}
 git submodule update --init --recursive
 #+END_SRC
 
-- 如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用`--remote`,如：
+- 如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用 =--remote=,如：
 
 #+BEGIN_SRC sh
 git submodule update --recursive --remote
