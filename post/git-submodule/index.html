@@ -66,15 +66,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://han1475.com/post/git-submodule/" />
 <meta property="article:published_time" content="2019-12-16T23:34:00+08:00" />
-<meta property="article:modified_time" content="2019-12-16T23:34:00+08:00" />
+<meta property="article:modified_time" content="2020-05-05T22:08:32+08:00" />
 <meta itemprop="name" content="git子模块">
 <meta itemprop="description" content="Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
 它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。">
 
 
 <meta itemprop="datePublished" content="2019-12-16T23:34:00&#43;08:00" />
-<meta itemprop="dateModified" content="2019-12-16T23:34:00&#43;08:00" />
-<meta itemprop="wordCount" content="218">
+<meta itemprop="dateModified" content="2020-05-05T22:08:32&#43;08:00" />
+<meta itemprop="wordCount" content="216">
 
 
 
@@ -386,7 +386,7 @@
             <a href="https://han1475.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
             
           </div>
-        <span class="more-meta"> 约 218 字 </span>
+        <span class="more-meta"> 约 216 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
 
         
@@ -434,22 +434,26 @@
 
 <h2 id="使用包含子模块的项目-可以采取下列两种方式">使用包含子模块的项目,可以采取下列两种方式。</h2>
 
-<ol>
-<li><p>克隆后再初始化并更新子模块</p>
+<ul>
+<li>克隆后再初始化并更新子模块</li>
+</ul>
+
+<!--listend-->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
 </span><span class="lnt">2
-</span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-sh" data-lang="sh">git clone <span class="o">{</span>MAIN_REPO<span class="o">}</span>
-git submodule init
-git submodule update</code></pre></td></tr></table>
+git submodule update --init --recursive</code></pre></td></tr></table>
 </div>
-</div></li>
+</div>
+<ul>
+<li>在克隆时增加额外参数</li>
+</ul>
 
-<li><p>在克隆时增加额外参数</p>
+<!--listend-->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
@@ -457,9 +461,7 @@ git submodule update</code></pre></td></tr></table>
 <td class="lntd">
 <pre class="chroma"><code class="language-sh" data-lang="sh">git clone --recursive <span class="o">{</span>MAIN_REPO<span class="o">}</span></code></pre></td></tr></table>
 </div>
-</div></li>
-</ol>
-
+</div>
 <h2 id="删除子模块">删除子模块</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -488,7 +490,7 @@ git commit -am <span class="s2">&#34;Remove a submodule.&#34;</span></code></pre
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-12-16
+      2020-05-05
       
     </span>
   </p>
