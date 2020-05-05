@@ -1,7 +1,7 @@
 +++
 title = "git子模块"
 date = 2019-12-16T23:34:00+08:00
-lastmod = 2020-05-05T22:08:32+08:00
+lastmod = 2020-05-05T22:24:36+08:00
 tags = ["git", "submodule"]
 categories = ["计算机"]
 draft = false
@@ -22,23 +22,32 @@ git submodule add {MOD_REPO} {YOUR_PATH}
 上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。
 
 
-## 使用包含子模块的项目,可以采取下列两种方式。 {#使用包含子模块的项目-可以采取下列两种方式}
+## 克隆包含子模块的项目 {#克隆包含子模块的项目}
 
--   克隆后再初始化并更新子模块
-
-<!--listend-->
-
-```sh
-git clone {MAIN_REPO}
-git submodule update --init --recursive
-```
-
--   在克隆时增加额外参数
+-   如果克隆主库的时候要初始化子模块,使用 \`--recursive\`,如：
 
 <!--listend-->
 
 ```sh
 git clone --recursive {MAIN_REPO}
+```
+
+-   如果克隆了主库但没初始化子模块，则用：
+
+<!--listend-->
+
+```sh
+git submodule update --init --recursive
+```
+
+-   如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用\`--remote\`,如：
+
+<!--listend-->
+
+```sh
+git submodule update --recursive --remote
+git add .
+git commit "update submodule"
 ```
 
 
