@@ -5,47 +5,15 @@
     <link>https://han1475.com/</link>
     <description>Recent content on 小蜗牛的大梦想</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Dec 2019 23:53:00 +0800</lastBuildDate>
-    
-        <atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2019 23:53:00 +0800</lastBuildDate><atom:link href="https://han1475.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>技术选型与问题解决</title>
       <link>https://han1475.com/post/choose-and-solve/</link>
       <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/choose-and-solve/</guid>
-      
-        <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;
-
-&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
-
-&lt;h3 id=&#34;生态&#34;&gt;生态&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;技术选型时一定要考虑生态。 成熟的社区、健全的文档、广泛的使用人群踩坑，并且有大量的相关人员。&lt;/li&gt;
-&lt;li&gt;落实在个人的选择上，举例如下：脚本用 &lt;code&gt;ruby（rake）&lt;/code&gt; 、使用qwe布局的键盘。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;不要滥用特性&#34;&gt;不要滥用特性&lt;/h3&gt;
-
-&lt;p&gt;为了用而用很容易变成瞎折腾，如一个脚本能用 &lt;code&gt;bash&lt;/code&gt; 实现，就不要用更高层次的工具，如 &lt;code&gt;ruby&lt;/code&gt; ，真正有需求时再去做。&lt;/p&gt;
-
-&lt;h2 id=&#34;问题解决&#34;&gt;问题解决&lt;/h2&gt;
-
-&lt;h3 id=&#34;官方支持&#34;&gt;官方支持&lt;/h3&gt;
-
-&lt;p&gt;第一时间查阅官方资料和文档，第一时间寻求官方的帮助。&lt;/p&gt;
-
-&lt;h3 id=&#34;善用搜索引擎&#34;&gt;善用搜索引擎：&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;对程序员来说就是面向 &lt;code&gt;stackoverflow&lt;/code&gt; 编程 (&lt;strong&gt;^_^&lt;/strong&gt;)；&lt;/li&gt;
-&lt;li&gt;普通人来说，假设你可以访问谷歌，&lt;a href=&#34;https://zh.lmgtfy.com/?q=your+question&amp;amp;pp=1&#34;&gt;点这里解决你的问题&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-      
+      <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,37 +22,7 @@
       <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/backup/</guid>
-      
-        <description>&lt;p&gt;数据备份在当前这个信息爆炸的时代尤为重要，本人自己的一点思考。&lt;/p&gt;
-
-&lt;h2 id=&#34;两地三中心&#34;&gt;两地三中心&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;两地三中心：即生产数据中心、同城灾备中心、异地灾备中心建设方案。
-两个城市的三个数据中心互联互通，如果一个数据中心发生故障或灾难，其他数据中心可以正常运行并对关键业务或全部业务实现接管。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;同城双活数据中心&#34;&gt;同城双活数据中心&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;同城双活数据中心：同个城市部署两个数据中心，
-双活：一是多中心之间地位均等，正常模式下协同工作，并行为业务访问提供服务，实现资源的充分利用，避免一个或两个备份中心处于闲置状态，造成资源与投资浪费；
-二是在一个数据中心发生故障或灾难的情况下，其他数据中心可以正常运行并对关键业务或全部业务实现接管，实现用户的“故障无感知”。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;个人思考&#34;&gt;个人思考&lt;/h2&gt;
-
-&lt;h3 id=&#34;亲身的教训&#34;&gt;亲身的教训：&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;初中数据丢过一次，内存卡损坏，同学数据全丢了。&lt;/li&gt;
-&lt;li&gt;上大学时硬盘不慎损坏，高中阶段全部信息学奥赛等资料全丢，都是精心整理的心血。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;目前的备份方案&#34;&gt;目前的备份方案：&lt;/h3&gt;
-
-&lt;p&gt;印象笔记、个人网站（github）、电脑、移动硬盘各自保存一份，四地三中心和同城双活全都做到了，:)。&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;数据备份在当前这个信息爆炸的时代尤为重要，本人自己的一点思考。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -93,38 +31,7 @@
       <pubDate>Sat, 21 Dec 2019 23:52:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/interest/</guid>
-      
-        <description>&lt;p&gt;天下攘攘，皆为利往。天下熙熙，皆为利来。&lt;/p&gt;
-
-&lt;h2 id=&#34;钓鱼&#34;&gt;钓鱼&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;本意是指垂钓这项活动，因其愿者上钩引申出隐蔽身份，采取手段引诱别人做出特定行为的意思。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;以知乎为例，现阶段大量匿名用户发布明显错误或歧义、容易引起争论的问题。实则是官方故意发布来引诱用户参与，从而制造热度，引起流量。&lt;/li&gt;
-&lt;li&gt;社交平台上哗众取宠、故意反串，也是为了人为制作噱头、引起流量。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;流量&#34;&gt;流量&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“流量”本义是单位时间内通过河、渠或管道某一横截面的流体的量，或是通过道路的车辆、人员等的数量。在互联网时代，“流量”也指在一定时间内网站的访问量，
-引申义是用来形容那些粉丝多、人气高、影响广、商业价值大的事物。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;为了流量不择手段：上述钓鱼行为皆是用来增加流量的手段。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;怎么办&#34;&gt;怎么办&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;不需要争论的问题不看不评。&lt;/li&gt;
-&lt;li&gt;将流量因素考虑在内看待问题。&lt;/li&gt;
-&lt;/ol&gt;</description>
-      
+      <description>&lt;p&gt;天下攘攘，皆为利往。天下熙熙，皆为利来。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -133,37 +40,7 @@
       <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/emacs-configuration/</guid>
-      
-        <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;
-
-&lt;h2 id=&#34;涉及工具&#34;&gt;涉及工具&lt;/h2&gt;
-
-&lt;h2 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;org&lt;/code&gt; 转换 &lt;code&gt;Markdown&lt;/code&gt; 工具，实现Emacs下写作，并利用hugo生成静态网站，本站文章就是这样写的。&lt;/p&gt;
-
-&lt;h2 id=&#34;yasnippet&#34;&gt;yasnippet&lt;/h2&gt;
-
-&lt;p&gt;输入模板，减少重复输入。&lt;/p&gt;
-
-&lt;h2 id=&#34;company&#34;&gt;company&lt;/h2&gt;
-
-&lt;p&gt;智能提示。&lt;/p&gt;
-
-&lt;h2 id=&#34;ivy&#34;&gt;ivy&lt;/h2&gt;
-
-&lt;p&gt;命令智能提示。&lt;/p&gt;
-
-&lt;h2 id=&#34;evil&#34;&gt;evil&lt;/h2&gt;
-
-&lt;p&gt;vi模拟器&lt;/p&gt;
-
-&lt;h2 id=&#34;hydra&#34;&gt;hydra&lt;/h2&gt;
-
-&lt;p&gt;前缀快捷键设置&lt;/p&gt;
-
-&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -172,50 +49,7 @@
       <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/github-actions/</guid>
-      
-        <description>&lt;p&gt;Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。&lt;/p&gt;
-
-&lt;h2 id=&#34;一-github-actions是什么&#34;&gt;一、GitHub Actions是什么&lt;/h2&gt;
-
-&lt;p&gt;持续集成包括很多操作，比如运行测试，构建版本等，GitHub把这些操作称之为Actions。&lt;/p&gt;
-
-&lt;h2 id=&#34;二-为什么选择github-actions&#34;&gt;二、为什么选择GitHub Actions&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Github Actions采取了类似npm包的处理方式，允许直接引用其他人写好的Action脚本文件。&lt;/li&gt;
-&lt;li&gt;Github在市场中提供了Action的搜索功能，方便自行搜索，搜索时只需要在类型（Type）中选择Actions即可。&lt;/li&gt;
-&lt;li&gt;Github Actions 配置直接存储于代码仓库的 &lt;code&gt;.github/workflows&lt;/code&gt; 目录下，避免配置分离难以维护。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;三-关于github-actions引用他人脚本&#34;&gt;三、关于GitHub Actions引用他人脚本&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;采用 &lt;code&gt;username/reponame&lt;/code&gt; 的方式引用。
-
-&lt;ul&gt;
-&lt;li&gt;如 &lt;code&gt;actions/setup-node&lt;/code&gt; 就是指引用 &lt;code&gt;github.com/actions/setup-node&lt;/code&gt; 这个代码仓库.&lt;/li&gt;
-&lt;li&gt;事实上Github官方的Actions都存储在 &lt;code&gt;github.com/actions&lt;/code&gt; 这个用户名的代码仓库中。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Github Actions采用代码仓库的方式存储，因此你可以引用特定版本，下列都是正确的引用。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;actions/setup-node@9a99bb3 # 指向一个 commit
-actions/setup-node@v1.2.0  # 指向一个标签
-actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;四-基本概念&#34;&gt;四、基本概念&lt;/h2&gt;
-
-&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -224,83 +58,8 @@ actions/setup-node@master  # 指向一个分支&lt;/code&gt;&lt;/pre&gt;&lt;/td&
       <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/git-submodule/</guid>
-      
-        <description>&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
-它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;
-
-&lt;h2 id=&#34;添加子模块&#34;&gt;添加子模块&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule add &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_REPO&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;YOUR_PATH&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;上述命令会在项目下生成.gitmodules文件，其中保存了子模块的信息。&lt;/p&gt;
-
-&lt;h2 id=&#34;克隆包含子模块的项目&#34;&gt;克隆包含子模块的项目&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;如果克隆主库的时候要初始化子模块,使用 &lt;code&gt;--recursive&lt;/code&gt;,如：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--listend--&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone --recursive &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MAIN_REPO&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;如果克隆了主库但没初始化子模块，则用：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--listend--&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule update --init --recursive&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;如果已经克隆并初始化子模块,需要从子模块的源更新这个子模块,使用 &lt;code&gt;--remote&lt;/code&gt;,如：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--listend--&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule update --recursive --remote
-git add .
-git commit &lt;span class=&#34;s2&#34;&gt;&amp;#34;update submodule&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;删除子模块&#34;&gt;删除子模块&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git submodule deinit &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-git rm --cached &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;MOD_NAME&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
-git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;修改某个模块的url属性&#34;&gt;修改某个模块的URL属性&lt;/h2&gt;
-
-&lt;p&gt;To Be Continued.&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
+它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -309,34 +68,8 @@ git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove a submodule.&amp;#
       <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
       
       <guid>https://han1475.com/post/unraid/</guid>
-      
-        <description>&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。
-本文安装Unraid的平台配置是h61主板+G1610赛扬cpu&lt;/p&gt;
-
-&lt;h2 id=&#34;准备安装&#34;&gt;准备安装&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;准备好一个1G或者更大的U盘，不使用&lt;/li&gt;
-&lt;li&gt;按照官网指引，可以采取两种方式，第一种是直接使用官方提供的u盘启动盘创建工具创建启动盘，但由于访问amazon服务器太慢，本次没有涉及。&lt;/li&gt;
-&lt;li&gt;第二种方式直接从&lt;a href=&#34;https://unraid.net/download&#34;&gt;官网下载地址&lt;/a&gt;下载固件，手动创建启动盘。&lt;/li&gt;
-&lt;li&gt;经过实际尝试，官方教程无法启动，推荐使用&lt;a href=&#34;http://unetbootin.github.io/&#34;&gt;UNetbootin&lt;/a&gt;工具
-
-&lt;ul&gt;
-&lt;li&gt;此方法需要u盘容量不超过32G&lt;/li&gt;
-&lt;li&gt;将U盘格式化为 fat32 格式，将官网下载的zip文件修改为iso文件（windows下直接修改扩展名就可以）&lt;/li&gt;
-&lt;li&gt;运行UNetbootin工具，选择上一步修改的iso文件，等待写入完成即可。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;出现无法获取ip的问题，设置U盘config/network.cfg文件中的IPADDR(IP地址)，NETMASK（子网掩码），GATEWAY(网关)后解决。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;设置&#34;&gt;设置&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;在其他电脑浏览器访问启动Unraid机器的ip，进入设置页面。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;由于目前暂时难以解决Unraid许可证问题，找不到获取方式，官网也没有相关说明，暂时停更。&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。
+本文安装Unraid的平台配置是h61主板+G1610赛扬cpu&lt;/p&gt;</description>
     </item>
     
   </channel>
