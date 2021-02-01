@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 小蜗牛的大梦想</title>
+    <link>https://han1475.com/post/</link>
+    <description>Recent content in Posts on 小蜗牛的大梦想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2019 23:53:00 +0800</lastBuildDate><atom:link href="https://han1475.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术选型与问题解决</title>
+      <link>https://han1475.com/post/choose-and-solve/</link>
+      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/choose-and-solve/</guid>
+      <description>&lt;p&gt;关于技术选型和问题解决的一点思考。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数据备份要两地三中心</title>
+      <link>https://han1475.com/post/backup/</link>
+      <pubDate>Sat, 21 Dec 2019 23:53:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/backup/</guid>
+      <description>&lt;p&gt;数据备份在当前这个信息爆炸的时代尤为重要，本人自己的一点思考。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>利益</title>
+      <link>https://han1475.com/post/interest/</link>
+      <pubDate>Sat, 21 Dec 2019 23:52:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/interest/</guid>
+      <description>&lt;p&gt;天下攘攘，皆为利往。天下熙熙，皆为利来。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>emacs配置</title>
+      <link>https://han1475.com/post/emacs-configuration/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/emacs-configuration/</guid>
+      <description>&lt;p&gt;本人的 &lt;strong&gt;Emacs&lt;/strong&gt; 配置，持续更新&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github Actions使用</title>
+      <link>https://han1475.com/post/github-actions/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/github-actions/</guid>
+      <description>&lt;p&gt;Github Actions是Github的持续集成服务，于2018年10月开始测试，2019年11月13日正式上线。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>git子模块</title>
+      <link>https://han1475.com/post/git-submodule/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/git-submodule/</guid>
+      <description>&lt;p&gt;Git中子模块（submodule）允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。
+它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>unraid的使用</title>
+      <link>https://han1475.com/post/unraid/</link>
+      <pubDate>Mon, 16 Dec 2019 23:34:00 +0800</pubDate>
+      
+      <guid>https://han1475.com/post/unraid/</guid>
+      <description>&lt;p&gt;Unraid是基于KVM的半虚拟化付费软件，定价分成三个等级：basic，59刀可以挂载6个存储设备；plus，89刀12个；pro，129刀无限制。
+本文安装Unraid的平台配置是h61主板+G1610赛扬cpu&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
